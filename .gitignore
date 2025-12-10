@@ -1,0 +1,29 @@
+# Vercel
+.vercel
+
+# Environment variables (contains API keys - keep secret!)
+.env
+
+# Python virtual environment
+.venv/
+venv/
+env/
+
+# Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# IDE specific files
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS specific files
+.DS_Store
+Thumbs.db
+
+# Data files (too large for git)
+*.csv

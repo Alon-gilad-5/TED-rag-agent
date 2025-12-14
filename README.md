@@ -58,7 +58,7 @@ TedAgent/
 
 1. Clone this repository:
 ```bash
-git clone <your-repo-url>
+git clone https://github.com/Alon-gilad-5/TED-rag-agent.git
 cd TedAgent
 ```
 

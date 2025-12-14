@@ -6,6 +6,7 @@ import os
 from langchain_openai import AzureChatOpenAI, AzureOpenAIEmbeddings
 from langchain_pinecone import PineconeVectorStore
 from langchain_core.prompts import ChatPromptTemplate
+import time
 
 # Grab our API credentials from environment variables (keeps secrets out of the code)
 AZURE_ENDPOINT = os.environ.get("BASE_URL", "https://api.llmod.ai")
@@ -85,9 +86,18 @@ class handler(BaseHTTPRequestHandler):
         for doc, score in docs_and_scores:
             title = doc.metadata.get("title", "Unknown")
             speaker = doc.metadata.get("speaker_1", "Unknown")
+            topics = doc.metadata.get("topics", "")
+            description = doc.metadata.get("description", "")
 
             # Format for the AI to read
-            context_text_list.append(f"Title: {title}\nSpeaker: {speaker}\nTranscript Snippet: {doc.page_content}\n")
+            context_text_list.append(
+                f"Title: {title}\n"
+                f"Speaker: {speaker}\n"
+                f"Topics: {topics}\n"
+                f"Description: {description}\n"
+                f"Transcript Snippet: {doc.page_content}\n"
+            )
+
             # Format for returning to the user (so they can see what we found)
             context_json_list.append({
                 "talk_id": doc.metadata.get("talk_id", "N/A"),
@@ -103,8 +113,19 @@ class handler(BaseHTTPRequestHandler):
         # Build the full prompt with system instructions + context + question
         messages = [("system", SYSTEM_PROMPT), ("user", user_prompt)]
         prompt_template = ChatPromptTemplate.from_messages(messages)
-        # Send it to the AI and get an answer back
-        ai_message = llm.invoke(prompt_template.format_messages())
+
+        # Send it to the AI and get an answer back, if there is an error returning from server side, we try a few
+        # more times.
+        max_retries = 3
+        for attempt in range(max_retries):
+            try:
+                ai_message = llm.invoke(prompt_template.format_messages())
+                break
+            except Exception as e:
+                if attempt == max_retries - 1:
+                    return self._send_error(503, f"service unavailable: {str(e)}")
+                time.sleep(1)
+
 
         # Package everything up nicely for the response
         result = {

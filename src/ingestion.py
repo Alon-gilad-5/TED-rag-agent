@@ -95,13 +95,17 @@ def run_ingestion():
             "talk_id": str(row.get("talk_id", "")),
             "title": str(row.get("title", "")),
             "speaker_1": str(row.get("speaker_1", "")),
+            "topics": str(row.get(("topics", ""))),
+            "description": str(row.get("description", "")),
             "url": str(row.get("url", ""))
         }
 
         # Get the transcript and split it into bite-sized chunks
         transcript = str(row.get("transcript", ""))
+        title = str(row.get("title", ""))
         if transcript and transcript != "nan":  # Make sure there's actually text to process
-            chunks = text_splitter.split_text(transcript)
+            enriched_text = f"Title: {title}. {transcript}"
+            chunks = text_splitter.split_text(enriched_text)
             # Each chunk becomes its own document with the same metadata
             for chunk in chunks:
                 documents.append(Document(page_content=chunk, metadata=meta))

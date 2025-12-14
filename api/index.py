@@ -128,8 +128,7 @@ class handler(BaseHTTPRequestHandler):
             API Endpoints: <code>POST /api/prompt</code> <code>GET /api/stats</code>
         </div>
     </div>
-
-    <script>
+<script>
         async function askQuestion() {
             const question = document.getElementById('question').value;
             if (!question) return;
@@ -145,8 +144,15 @@ class handler(BaseHTTPRequestHandler):
                     headers: {'Content-Type': 'application/json'},
                     body: JSON.stringify({question})
                 });
-                const data = await res.json();
-                document.getElementById('response').innerText = data.response;
+                const text = await res.text();
+                let output;
+                try {
+                    const data = JSON.parse(text);
+                    output = data.response || data.error || text;
+                } catch {
+                    output = text;
+                }
+                document.getElementById('response').innerText = output;
                 document.getElementById('response').style.display = 'block';
             } catch (e) {
                 document.getElementById('response').innerText = 'Error: ' + e.message;

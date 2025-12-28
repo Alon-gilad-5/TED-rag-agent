@@ -4,7 +4,7 @@ import json
 RAG_CONFIG = {
     "chunk_size": 1024,
     "overlap_ratio": 0.2,
-    "top_k": 3 #choosen by evaluationRag.py
+    "top_k": 5
 }
 
 

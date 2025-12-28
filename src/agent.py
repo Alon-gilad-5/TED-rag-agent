@@ -50,7 +50,7 @@ class TedRagAgent:
         self.llm = AzureChatOpenAI(
             azure_deployment="RPRTHPB-gpt-5-mini",
             azure_endpoint=azure_endpoint,
-            api_key=azure_api_key,  # Fixed: was azure_api_key (wrong param name)
+            api_key=azure_api_key,
             temperature=1,
             max_tokens=1000,
         )
@@ -119,7 +119,7 @@ class TedRagAgent:
         return {
             "response": response_text,
             "context": context_json_list,
-            "Augmented_prompt": {  # Fixed: was "Augmented_prompt_prompt"
+            "Augmented_prompt": {
                 "System": self.system_prompt_text,
                 "User": user_prompt
             }

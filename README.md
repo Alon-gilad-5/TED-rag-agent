@@ -119,6 +119,45 @@ The codebase includes human-readable comments explaining each step. Check out:
 - `api/prompt.py` - See how questions are processed and answered
 - `src/ingestion.py` - Understand how TED talks are chunked and embedded
 
+## Evaluation
+
+The project includes an LLM-as-Judge evaluation framework to measure RAG system quality and optimize retrieval parameters.
+
+### evaluateRag.py
+
+Located in `evaluation/evaluateRag.py`, this script evaluates the RAG system's performance across different configurations:
+
+**What it does:**
+- Tests multiple k values (number of retrieved documents) to find the optimal retrieval setting
+- Evaluates system responses across 4 query categories:
+  1. **Precise Fact Retrieval** - Finding specific talks with title/speaker
+  2. **Multi-Result Topic Listing** - Returning multiple relevant talks
+  3. **Key Idea Summary** - Extracting and summarizing main concepts
+  4. **Recommendation with Justification** - Suggesting talks with evidence-based reasoning
+
+**Evaluation Metrics:**
+- **Faithfulness** (1-5): Is the answer grounded only in the provided context?
+- **Relevance** (1-5): Does the answer address the question?
+- **Completeness** (1-5): Are all requirements fulfilled?
+- **Context Quality** (1-5): Were the retrieved chunks useful?
+
+**Running the evaluation:**
+```bash
+python evaluation/evaluateRag.py
+```
+
+The script will:
+- Test each question with different k values (3, 5, 10, 12, 15)
+- Use an LLM judge to score each response
+- Calculate average scores across all metrics
+- Recommend the optimal k value for your RAG configuration
+- Save detailed results to `evaluation_results.json`
+
+**Use this to:**
+- Tune your retrieval parameters (top_k value)
+- Understand system performance across different query types
+- Identify areas for improvement in your RAG pipeline
+
 ## Deployment
 
 This project is configured for Vercel deployment using `vercel.json`. Just connect your repo to Vercel and it'll deploy automatically.

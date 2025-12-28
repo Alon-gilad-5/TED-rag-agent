@@ -14,7 +14,7 @@ AZURE_API_KEY = os.environ.get("LLMOD_API_KEY")
 PINECONE_API_KEY = os.environ.get("PINECONE_API_KEY")
 
 # Configuration for our RAG system - basically how we chunk up and search through TED talks
-RAG_CONFIG = {"chunk_size": 1024, "overlap_ratio": 0.2, "top_k": 5}
+RAG_CONFIG = {"chunk_size": 1024, "overlap_ratio": 0.2, "top_k": 3}
 
 # This is the instruction we give to the AI - telling it to ONLY use the TED data we give it
 # and not make stuff up from its training. Keeps answers grounded in actual TED content.

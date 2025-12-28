@@ -6,17 +6,21 @@ from langchain_text_splitters import RecursiveCharacterTextSplitter
 from langchain_openai import AzureOpenAIEmbeddings
 from langchain_core.documents import Document
 from pinecone import Pinecone, ServerlessSpec
+import time
 
 load_dotenv()
 
 # Configuration settings
-INDEX_NAME = "ted-rag-index"  # Name of our Pinecone vector database
+INDEX_NAME = "ted-rag-index"
 CSV_FILE = "../data/ted_talks_en.csv"
-SUBSET_SIZE = 200  # Only process this many talks (saves money on API costs)
+SUBSET_SIZE = 4005
 
-# Chunking hyperparameters - how we split up long transcripts
-CHUNK_SIZE = 1024  # Each chunk is about 1024 characters
-CHUNK_OVERLAP = int(CHUNK_SIZE * 0.2)  # 20% overlap between chunks so we don't lose context at boundaries
+# Chunking hyperparameters
+CHUNK_SIZE = 1024
+CHUNK_OVERLAP = int(CHUNK_SIZE * 0.2)
+
+# Batching settings for resume capability
+BATCH_SIZE = 500  # Upload in batches of 500 chunks
 
 # Pull API credentials from environment variables
 azure_endpoint = os.getenv("BASE_URL", "https://api.llmod.ai")
@@ -24,48 +28,58 @@ azure_api_key = os.getenv("LLMOD_API_KEY")
 pinecone_api_key = os.getenv("PINECONE_API_KEY")
 
 
+def get_existing_vector_count(pc, index_name):
+    """Check how many vectors are already in Pinecone."""
+    try:
+        index = pc.Index(index_name)
+        stats = index.describe_index_stats()
+        return stats.total_vector_count
+    except Exception as e:
+        print(f"Could not get index stats: {e}")
+        return 0
+
+
 def run_ingestion():
     """
-    This is the main data pipeline that does everything:
-    Load TED talks from CSV -> Split into chunks -> Turn into vectors -> Store in Pinecone
-
-    Run this script once to populate your vector database with TED talk data!
+    Resume-capable ingestion pipeline with batching and progress logging.
     """
 
-    # First, make sure we have all the API keys we need
     if not azure_api_key:
         raise ValueError("LLMOD_API_KEY not found in environment")
     if not pinecone_api_key:
         raise ValueError("PINECONE_API_KEY not found in environment")
 
-    # Set up our embedding model - this turns text into vectors that capture meaning
+    # Set up embedding model
     embeddings = AzureOpenAIEmbeddings(
         model="RPRTHPB-text-embedding-3-small",
         azure_deployment="RPRTHPB-text-embedding-3-small",
         azure_endpoint=azure_endpoint,
         api_key=azure_api_key,
-        check_embedding_ctx_length=False  # Let the model handle text that's too long
+        check_embedding_ctx_length=False
     )
 
-    # Connect to Pinecone and make sure our index exists
+    # Connect to Pinecone
     pc = Pinecone(api_key=pinecone_api_key)
 
-    # Check if we already created the index before
     existing_indexes = [idx.name for idx in pc.list_indexes()]
     if INDEX_NAME not in existing_indexes:
-        # First time running? Let's create the index
         print(f"Creating index '{INDEX_NAME}'...")
         pc.create_index(
             name=INDEX_NAME,
-            dimension=1536,  # text-embedding-3-small outputs 1536-dimensional vectors
-            metric="cosine",  # Cosine similarity
+            dimension=1536,
+            metric="cosine",
             spec=ServerlessSpec(cloud="aws", region="us-east-1")
         )
         print("Index created. Waiting for it to be ready...")
+        time.sleep(10)
     else:
         print(f"Index '{INDEX_NAME}' already exists.")
 
-    # Load up all the TED talks from our CSV file
+    # Check how many vectors already exist
+    existing_count = get_existing_vector_count(pc, INDEX_NAME)
+    print(f"Vectors already in Pinecone: {existing_count}")
+
+    # Load CSV
     print(f"Loading {CSV_FILE}...")
     try:
         df = pd.read_csv(CSV_FILE)
@@ -75,22 +89,18 @@ def run_ingestion():
 
     print(f"Dataset has {len(df)} talks total.")
 
-    # We're only processing a subset to keep costs down (embeddings cost money!)
     df_subset = df.head(SUBSET_SIZE)
     print(f"Processing subset of {len(df_subset)} talks...")
 
-    # Time to chunk up the transcripts! Can't feed entire talks to the model at once.
+    # Create all document chunks
     documents = []
-    # This splitter is smart - it tries to split at natural boundaries (paragraphs, sentences, etc.)
     text_splitter = RecursiveCharacterTextSplitter(
-        chunk_size=CHUNK_SIZE,  # Max 1024 chars per chunk
-        chunk_overlap=CHUNK_OVERLAP,  # 20% overlap so we don't lose context
-        separators=["\n\n", "\n", ". ", " ", ""]  # Try these breaks in order
+        chunk_size=CHUNK_SIZE,
+        chunk_overlap=CHUNK_OVERLAP,
+        separators=["\n\n", "\n", ". ", " ", ""]
     )
 
-    # Go through each TED talk and split it up
     for idx, row in df_subset.iterrows():
-        # Grab the metadata we care about (talk title, speaker, etc.)
         meta = {
             "talk_id": str(row.get("talk_id", "")),
             "title": str(row.get("title", "")),
@@ -100,33 +110,62 @@ def run_ingestion():
             "url": str(row.get("url", ""))
         }
 
-        # Get the transcript and split it into bite-sized chunks
         transcript = str(row.get("transcript", ""))
         title = str(row.get("title", ""))
-        if transcript and transcript != "nan":  # Make sure there's actually text to process
+        if transcript and transcript != "nan":
             enriched_text = f"Title: {title}. {transcript}"
             chunks = text_splitter.split_text(enriched_text)
-            # Each chunk becomes its own document with the same metadata
             for chunk in chunks:
                 documents.append(Document(page_content=chunk, metadata=meta))
 
-    print(f"Created {len(documents)} chunks from {len(df_subset)} talks.")
+    total_chunks = len(documents)
+    print(f"Created {total_chunks} chunks from {len(df_subset)} talks.")
 
-    # Final step: upload everything to Pinecone
-    if documents:
-        print(f"Upserting {len(documents)} chunks to Pinecone...")
-        # This will embed all the chunks and store them in the vector database
-        PineconeVectorStore.from_documents(
-            documents=documents,
-            embedding=embeddings,
-            index_name=INDEX_NAME,
-            pinecone_api_key=pinecone_api_key
-        )
+    # Skip already uploaded chunks
+    if existing_count >= total_chunks:
+        print("All chunks already uploaded. Nothing to do.")
+        return
+
+    documents_to_upload = documents[existing_count:]
+    print(f"Resuming from chunk {existing_count}. Remaining: {len(documents_to_upload)} chunks.")
+
+    # Upload in batches with progress logging
+    if documents_to_upload:
+        total_batches = (len(documents_to_upload) + BATCH_SIZE - 1) // BATCH_SIZE
+
+        for i in range(0, len(documents_to_upload), BATCH_SIZE):
+            batch = documents_to_upload[i:i + BATCH_SIZE]
+            batch_num = (i // BATCH_SIZE) + 1
+
+            try:
+                print(f"Uploading batch {batch_num}/{total_batches} ({len(batch)} chunks)...")
+                start_time = time.time()
+
+                PineconeVectorStore.from_documents(
+                    documents=batch,
+                    embedding=embeddings,
+                    index_name=INDEX_NAME,
+                    pinecone_api_key=pinecone_api_key
+                )
+
+                elapsed = time.time() - start_time
+                uploaded_so_far = existing_count + i + len(batch)
+                print(
+                    f"  ✓ Batch {batch_num} complete in {elapsed:.1f}s. Total uploaded: {uploaded_so_far}/{total_chunks}")
+
+            except Exception as e:
+                print(f"  ✗ Batch {batch_num} failed: {e}")
+                print(f"  Resume point: {existing_count + i} chunks")
+                print("  Re-run this script to continue from where it stopped.")
+                return
+
+        print("\n" + "=" * 50)
         print("Ingestion Complete!")
+        print(f"Total vectors in Pinecone: {total_chunks}")
+        print("=" * 50)
     else:
-        print("No documents to upsert. Check if transcripts exist in CSV.")
+        print("No documents to upsert.")
 
 
-# Run the ingestion when this script is executed directly
 if __name__ == "__main__":
     run_ingestion()

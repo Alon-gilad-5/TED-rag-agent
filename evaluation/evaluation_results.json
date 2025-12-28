@@ -1,0 +1,3202 @@
+[
+  {
+    "question": "Find a TED talk that discusses overcoming fear or anxiety. Provide the title and speaker.",
+    "category": "Precise Fact Retrieval",
+    "k_value": 3,
+    "response": "\"The science of stage fright (and how to overcome it)\" — Mikael Cho.\n\nI know this from the provided transcript, which begins: \"Title: The science of stage fright (and how to overcome it). Palms sweaty, heart racing, stomach in knots... you have to try and overcome it.\" The talk explicitly explains what stage fright is and how to overcome it (e.g., it links the feeling to the \"fight or flight response\").",
+    "context_chunks": [
+      {
+        "talk_id": "1962",
+        "title": "It's TED, the Musical",
+        "speaker": "The TED Staff",
+        "chunk": ". Understand me still. ♪ ♪ I'm too nervous to give this TED Talk. ♪ All: ♪ Don't give up. Rehearse. You're good. ♪ ♪ We'll edit out the mistakes that you make. ♪ ♪ Give your talk. ♪ DH: ♪ I will be bi...",
+        "score": 0.538779259
+      },
+      {
+        "talk_id": "2746",
+        "title": "The science of stage fright (and how to overcome it)",
+        "speaker": "Mikael Cho",
+        "chunk": "Title: The science of stage fright (and how to overcome it). Palms sweaty, heart racing, stomach in knots. You can't cry for help. Not only is your throat too tight to breathe, but it'd be so embarras...",
+        "score": 0.517548561
+      },
+      {
+        "talk_id": "2665",
+        "title": "If a story moves you, act on it",
+        "speaker": "Sisonke Msimang",
+        "chunk": "Title: If a story moves you, act on it. So earlier this year, I was informed that I would be doing a TED Talk. So I was excited, then I panicked, then I was excited, then I panicked, and in between th...",
+        "score": 0.515610695
+      }
+    ],
+    "scores": {
+      "faithfulness": 5,
+      "relevance": 5,
+      "completeness": 5,
+      "context_quality": 5,
+      "overall_score": 5,
+      "reasoning": "The response correctly identifies a talk in the provided context that addresses overcoming fear (stage fright). The title and speaker match the retrieved transcript, fully answering the request using only the supplied chunks."
+    },
+    "avg_similarity": 0.523979505
+  },
+  {
+    "question": "Find a TED talk about the human brain. Provide the title and speaker.",
+    "category": "Precise Fact Retrieval",
+    "k_value": 3,
+    "response": "Title: \"How brain science will change computing\"\nSpeaker: Jeff Hawkins\n\nI select this because in the transcript Jeff Hawkins says explicitly, \"Today's talk is about brains\" and describes studying \"the neocortex\" and \"why we don't have a good brain theory,\" indicating the talk is about the human brain.",
+    "context_chunks": [
+      {
+        "talk_id": "2485",
+        "title": "TED's secret to great public speaking",
+        "speaker": "Chris Anderson",
+        "chunk": ". And even though these speakers and their topics all seem completely different, they actually do have one key common ingredient. And it's this: Your number one task as a speaker is to transfer into y...",
+        "score": 0.572947502
+      },
+      {
+        "talk_id": "125",
+        "title": "How brain science will change computing",
+        "speaker": "Jeff Hawkins",
+        "chunk": "Title: How brain science will change computing. I do two things: I design mobile computers and I study brains. Today's talk is about brains and — (Audience member cheers) Yay! I have a brain fan out t...",
+        "score": 0.562393188
+      },
+      {
+        "talk_id": "125",
+        "title": "How brain science will change computing",
+        "speaker": "Jeff Hawkins",
+        "chunk": "Title: How brain science will change computing. I do two things: I design mobile computers and I study brains. Today's talk is about brains and — (Audience member cheers) Yay! I have a brain fan out t...",
+        "score": 0.562267303
+      }
+    ],
+    "scores": {
+      "faithfulness": 5,
+      "relevance": 5,
+      "completeness": 5,
+      "context_quality": 5,
+      "overall_score": 5,
+      "reasoning": "The response directly cites a talk present in the retrieved context — 'How brain science will change computing' by Jeff Hawkins — and this transcript explicitly states the talk is about brains and the neocortex. It provides the requested title and speaker (meeting the precise retrieval requirement). The retrieved chunks include highly relevant material (the Hawkins talk); although one chunk about public speaking mentions brains briefly, overall the context enabled a correct, fully supported answer."
+    },
+    "avg_similarity": 0.565869331
+  },
+  {
+    "question": "Which TED talks focus on education or learning? Return a list of exactly 3 talk titles.",
+    "category": "Multi-Result Topic Listing",
+    "k_value": 3,
+    "response": "",
+    "context_chunks": [
+      {
+        "talk_id": "1315",
+        "title": "1,000 TED Talks in six words",
+        "speaker": "Sebastian Wernicke",
+        "chunk": ". But it's actually not, because there's an example by statistics professor Hans Rosling. I guess many of you have seen one or more of his talks. He's got eight talks online, and those can basically b...",
+        "score": 0.521003783
+      },
+      {
+        "talk_id": "2485",
+        "title": "TED's secret to great public speaking",
+        "speaker": "Chris Anderson",
+        "chunk": "Title: TED's secret to great public speaking. Some people think that there's a TED Talk formula: \"Give a talk on a round, red rug.\" \"Share a childhood story.\" \"Divulge a personal secret.\" \"End with an...",
+        "score": 0.508068144
+      },
+      {
+        "talk_id": "865",
+        "title": "Bring on the learning revolution!",
+        "speaker": "Sir Ken Robinson",
+        "chunk": "Title: Bring on the learning revolution!. I was here four years ago, and I remember, at the time, that the talks weren't put online. I think they were given to TEDsters in a box, a box set of DVDs, wh...",
+        "score": 0.505247176
+      }
+    ],
+    "scores": {
+      "faithfulness": 3,
+      "relevance": 3,
+      "completeness": 3,
+      "context_quality": 3,
+      "overall_score": 3,
+      "reasoning": "Failed to parse judge response"
+    },
+    "avg_similarity": 0.511439701
+  },
+  {
+    "question": "List 3 TED talks about technology or innovation.",
+    "category": "Multi-Result Topic Listing",
+    "k_value": 3,
+    "response": "",
+    "context_chunks": [
+      {
+        "talk_id": "955",
+        "title": "How web video powers global innovation",
+        "speaker": "Chris Anderson",
+        "chunk": "Title: How web video powers global innovation. If nothing else, at least I've discovered what it is we put our speakers through: sweaty palms, sleepless nights, a wholly unnatural fear of clocks. I me...",
+        "score": 0.530906677
+      },
+      {
+        "talk_id": "1378",
+        "title": "We need to talk about an injustice",
+        "speaker": "Bryan Stevenson",
+        "chunk": ". We love innovation. We love technology. We love creativity. We love entertainment. But ultimately, those realities are shadowed by suffering, abuse, degradation, marginalization. And for me, it beco...",
+        "score": 0.520551741
+      },
+      {
+        "talk_id": "1567",
+        "title": "Demand a fair trade cell phone",
+        "speaker": "Bandi Mbubi",
+        "chunk": ". TED has always celebrated what technology can do for us, technology in its finished form. It is time to be asking questions about technology. Where does it come from? Who makes it? And for what? Her...",
+        "score": 0.508136749
+      }
+    ],
+    "scores": {
+      "faithfulness": 3,
+      "relevance": 3,
+      "completeness": 3,
+      "context_quality": 3,
+      "overall_score": 3,
+      "reasoning": "Failed to parse judge response"
+    },
+    "avg_similarity": 0.5198650556666667
+  },
+  {
+    "question": "Find a TED talk where the speaker talks about technology improving people's lives. Provide the title and a short summary of the key idea.",
+    "category": "Key Idea Summary",
+    "k_value": 3,
+    "response": "Title: \"We need a 'moral operating system'.\" — Damon Horowitz\n\nSummary: Horowitz argues that technologists must take responsibility for how they use their power and build ethical guidance into technology. He asks people to reflect on moral frameworks (\"Did I evaluate what would be the highest pleasure like Mill would? Or like Kant, did I use reason to figure out what was intrinsically right?\"), calls for a deliberate pause to think about decisions, and urges technologists to consult people in the humanities because \"they think about problems differently than we do as technologists.\" He frames this as the first step toward deciding \"what we should do with all of our power.\"",
+    "context_chunks": [
+      {
+        "talk_id": "1162",
+        "title": "We need a \"moral operating system\"",
+        "speaker": "Damon Horowitz",
+        "chunk": ". \"Did I evaluate what would be the highest pleasure like Mill would? Or like Kant, did I use reason to figure out what was intrinsically right?\" Think about it. Really bring it to mind. This is impor...",
+        "score": 0.568338394
+      },
+      {
+        "talk_id": "2485",
+        "title": "TED's secret to great public speaking",
+        "speaker": "Chris Anderson",
+        "chunk": "Title: TED's secret to great public speaking. Some people think that there's a TED Talk formula: \"Give a talk on a round, red rug.\" \"Share a childhood story.\" \"Divulge a personal secret.\" \"End with an...",
+        "score": 0.55586338
+      },
+      {
+        "talk_id": "846",
+        "title": "Lies, damned lies and statistics (about TEDTalks)",
+        "speaker": "Sebastian Wernicke",
+        "chunk": ". Now, with the topic: There's a whole range of topics you can choose, but you should choose wisely, because your topic strongly correlates with how users will react to your talk. Now, to make this mo...",
+        "score": 0.535277367
+      }
+    ],
+    "scores": {
+      "faithfulness": 3,
+      "relevance": 3,
+      "completeness": 3,
+      "context_quality": 3,
+      "overall_score": 3,
+      "reasoning": "Failed to parse judge response"
+    },
+    "avg_similarity": 0.5531597136666666
+  },
+  {
+    "question": "Find a TED talk about creativity. Provide the title and summarize the speaker's main argument.",
+    "category": "Key Idea Summary",
+    "k_value": 3,
+    "response": "Title: \"Where does creativity hide?\" — Amy Tan\n\nSummary: Amy Tan argues that creativity is a process of making “something out of nothing” (she even cites an 11‑year‑old essay title, \"The Value of Nothing: Out of Nothing Comes Something\"). She frames creation as an interplay inside oneself — “my right brain, my left brain and the one that’s in between that is the censor” — and suggests that pushing limits (she humorously notes that following the TED rules can create a “near‑death” experience) can stimulate creativity. These lines from the talk form the basis of her main point: creativity emerges from internal tension and risk, turning nothing into something.",
+    "context_chunks": [
+      {
+        "talk_id": "250",
+        "title": "Where does creativity hide?",
+        "speaker": "Amy Tan",
+        "chunk": "Title: Where does creativity hide?. The Value of Nothing: Out of Nothing Comes Something. That was an essay I wrote when I was 11 years old and I got a B+. (Laughter) What I'm going to talk about: not...",
+        "score": 0.598209441
+      },
+      {
+        "talk_id": "2485",
+        "title": "TED's secret to great public speaking",
+        "speaker": "Chris Anderson",
+        "chunk": ". Here are just a few examples shared from the TED stage. Sir Ken Robinson — creativity is key to our kids' future. (Video) Sir Ken Robinson: My contention is that creativity now is as important in ed...",
+        "score": 0.582811415
+      },
+      {
+        "talk_id": "1449",
+        "title": "How to build your creative confidence",
+        "speaker": "David Kelley",
+        "chunk": ". We see people quit what they're doing and go in new directions. We see them come up with more interesting — and just more — ideas, so they can choose from better ideas. And they just make better dec...",
+        "score": 0.57233429
+      }
+    ],
+    "scores": {
+      "faithfulness": 3,
+      "relevance": 3,
+      "completeness": 3,
+      "context_quality": 3,
+      "overall_score": 3,
+      "reasoning": "Failed to parse judge response"
+    },
+    "avg_similarity": 0.5844517153333334
+  },
+  {
+    "question": "I'm looking for a TED talk about climate change and what individuals can do in their daily lives. Which talk would you recommend?",
+    "category": "Recommendation with Justification",
+    "k_value": 3,
+    "response": "I would recommend Katharine Hayhoe's talk \"The most important thing you can do to fight climate change: talk about it.\" In the transcript she says \"The number one way is by talking about it\" and frames climate change as \"affecting you and me right here, right now, in the places where we live,\" arguing that \"that hope begins with a conversation today.\" That makes her talk directly focused on an individual, everyday action people can take.\n\nIf you also want examples of everyday individual actions and how they help build broader support (for example, \"enthusiastic EV owners go and tell their electric stories to friends and neighbors and bring them along\"), Per Espen Stoknes's talk \"How to transform apocalypse fatigue into action on global warming\" covers that angle.",
+    "context_chunks": [
+      {
+        "talk_id": "29968",
+        "title": "The most important thing you can do to fight climate change: talk about it",
+        "speaker": "Katharine Hayhoe",
+        "chunk": ". But in reality, that boulder is already at the top of the hill. And it's got hundreds of millions of hands, maybe even billions on it, pushing it down. It just isn't going fast enough. So how do we ...",
+        "score": 0.566787779
+      },
+      {
+        "talk_id": "60080",
+        "title": "How we could change the planet's climate future",
+        "speaker": "David Wallace-Wells",
+        "chunk": "Title: How we could change the planet's climate future. I'm here to talk about climate change, but I'm not really an environmentalist. In fact, I've never really thought of myself as a nature person. ...",
+        "score": 0.540448248
+      },
+      {
+        "talk_id": "4463",
+        "title": "How to transform apocalypse fatigue into action on global warming",
+        "speaker": "Per Espen Stoknes",
+        "chunk": ". Now, that's massive. And in Oslo, we can see how enthusiastic EV owners go and tell their electric stories to friends and neighbors and bring them along. So we come full circle from story back to so...",
+        "score": 0.53656584
+      }
+    ],
+    "scores": {
+      "faithfulness": 5,
+      "relevance": 5,
+      "completeness": 5,
+      "context_quality": 5,
+      "overall_score": 5,
+      "reasoning": "The response stays grounded in the provided transcripts, accurately quoting/paraphrasing Hayhoe and citing a supporting example from Stoknes. It directly answers the request by recommending one talk with evidence-based justification and the retrieved chunks were highly relevant and useful."
+    },
+    "avg_similarity": 0.5479339556666667
+  },
+  {
+    "question": "Recommend a TED talk for someone interested in leadership. Explain why this talk is relevant.",
+    "category": "Recommendation with Justification",
+    "k_value": 3,
+    "response": "Recommendation: \"What it takes to be a great leader\" — Roselinde Torres.\n\nWhy it's relevant (from the provided TED transcript):\n- The talk is explicitly about leadership: the speaker frames “what makes a great leader in the 21st century.”\n- It focuses on concrete behaviors for leaders today: “Great leaders dare to be different. They don't just talk about risk-taking, they actually do it.”\n- It addresses resilience and development you need as a leader: Torres says impactful growth comes when you “build the emotional stamina to withstand people telling you that your new idea is naïve or reckless or just plain stupid.”\n- It highlights the importance of diverse, non‑traditional allies: the people who will join you “are not your usual suspects in your network. They're often people that think differently.”\n- She argues that “answering these three questions will determine your effectiveness as a 21st-century leader,” signaling practical guidance rather than theory.\n\nGiven those points from the transcript, this talk directly addresses modern leadership challenges and practical steps for becoming a more effective leader.",
+    "context_chunks": [
+      {
+        "talk_id": "2485",
+        "title": "TED's secret to great public speaking",
+        "speaker": "Chris Anderson",
+        "chunk": "Title: TED's secret to great public speaking. Some people think that there's a TED Talk formula: \"Give a talk on a round, red rug.\" \"Share a childhood story.\" \"Divulge a personal secret.\" \"End with an...",
+        "score": 0.558998108
+      },
+      {
+        "talk_id": "1930",
+        "title": "What it takes to be a great leader",
+        "speaker": "Roselinde Torres",
+        "chunk": ". Great leaders dare to be different. They don't just talk about risk-taking, they actually do it. And one of the leaders shared with me the fact that the most impactful development comes when you are...",
+        "score": 0.546976089
+      },
+      {
+        "talk_id": "70",
+        "title": "8 secrets of success",
+        "speaker": "Richard St. John",
+        "chunk": "Title: 8 secrets of success. This is really a two-hour presentation I give to high school students, cut down to three minutes. And it all started one day on a plane, on my way to TED, seven years ago....",
+        "score": 0.541788161
+      }
+    ],
+    "scores": {
+      "faithfulness": 5,
+      "relevance": 5,
+      "completeness": 5,
+      "context_quality": 5,
+      "overall_score": 5,
+      "reasoning": "The response recommends one talk and the justification is directly grounded in the provided transcript excerpts (quotes/paraphrases). It addresses the request fully and the retrieved chunks were highly relevant to leadership."
+    },
+    "avg_similarity": 0.5492541193333333
+  },
+  {
+    "question": "Find a TED talk that discusses overcoming fear or anxiety. Provide the title and speaker.",
+    "category": "Precise Fact Retrieval",
+    "k_value": 5,
+    "response": "Title: The science of stage fright (and how to overcome it)\nSpeaker: Mikael Cho\n\nExplanation: The transcript opens, \"Palms sweaty, heart racing, stomach in knots...you're speaking in public,\" and says you \"have to try and overcome it,\" explicitly framing stage fright as a fear to be understood and overcome. It goes on to explain the fear as a \"threat reaction\" and the \"fight or flight response,\" showing the talk discusses overcoming anxiety about public speaking.",
+    "context_chunks": [
+      {
+        "talk_id": "1962",
+        "title": "It's TED, the Musical",
+        "speaker": "The TED Staff",
+        "chunk": ". Understand me still. ♪ ♪ I'm too nervous to give this TED Talk. ♪ All: ♪ Don't give up. Rehearse. You're good. ♪ ♪ We'll edit out the mistakes that you make. ♪ ♪ Give your talk. ♪ DH: ♪ I will be bi...",
+        "score": 0.538779259
+      },
+      {
+        "talk_id": "2746",
+        "title": "The science of stage fright (and how to overcome it)",
+        "speaker": "Mikael Cho",
+        "chunk": "Title: The science of stage fright (and how to overcome it). Palms sweaty, heart racing, stomach in knots. You can't cry for help. Not only is your throat too tight to breathe, but it'd be so embarras...",
+        "score": 0.517548561
+      },
+      {
+        "talk_id": "2665",
+        "title": "If a story moves you, act on it",
+        "speaker": "Sisonke Msimang",
+        "chunk": "Title: If a story moves you, act on it. So earlier this year, I was informed that I would be doing a TED Talk. So I was excited, then I panicked, then I was excited, then I panicked, and in between th...",
+        "score": 0.515610695
+      },
+      {
+        "talk_id": "2485",
+        "title": "TED's secret to great public speaking",
+        "speaker": "Chris Anderson",
+        "chunk": "Title: TED's secret to great public speaking. Some people think that there's a TED Talk formula: \"Give a talk on a round, red rug.\" \"Share a childhood story.\" \"Divulge a personal secret.\" \"End with an...",
+        "score": 0.508173943
+      },
+      {
+        "talk_id": "2809",
+        "title": "Don't feel sorry for refugees -- believe in them",
+        "speaker": "Luma Mufleh",
+        "chunk": "Title: Don't feel sorry for refugees -- believe in them. I remember when I first found out I was going to speak at a TED conference. I ran across the hall to one of my classrooms to inform my students...",
+        "score": 0.501777649
+      }
+    ],
+    "scores": {
+      "faithfulness": 5,
+      "relevance": 5,
+      "completeness": 5,
+      "context_quality": 5,
+      "overall_score": 5,
+      "reasoning": "The response accurately names a talk from the provided context ('The science of stage fright (and how to overcome it)' by Mikael Cho) and the transcript explicitly discusses overcoming stage fright—directly addressing fear/anxiety. All requirements (title and speaker) were met and the retrieved chunk was highly relevant."
+    },
+    "avg_similarity": 0.5163780214
+  },
+  {
+    "question": "Find a TED talk about the human brain. Provide the title and speaker.",
+    "category": "Precise Fact Retrieval",
+    "k_value": 5,
+    "response": "Title: \"3 clues to understanding your brain\"\nSpeaker: Vilayanur Ramachandran\n\nExplanation: The transcript for this talk begins, \"Title: 3 clues to understanding your brain. Well, as Chris pointed out, I study the human brain...\"—showing this TED Talk is explicitly about the human brain and is given by Vilayanur Ramachandran.",
+    "context_chunks": [
+      {
+        "talk_id": "2485",
+        "title": "TED's secret to great public speaking",
+        "speaker": "Chris Anderson",
+        "chunk": ". And even though these speakers and their topics all seem completely different, they actually do have one key common ingredient. And it's this: Your number one task as a speaker is to transfer into y...",
+        "score": 0.572947502
+      },
+      {
+        "talk_id": "125",
+        "title": "How brain science will change computing",
+        "speaker": "Jeff Hawkins",
+        "chunk": "Title: How brain science will change computing. I do two things: I design mobile computers and I study brains. Today's talk is about brains and — (Audience member cheers) Yay! I have a brain fan out t...",
+        "score": 0.562393188
+      },
+      {
+        "talk_id": "125",
+        "title": "How brain science will change computing",
+        "speaker": "Jeff Hawkins",
+        "chunk": "Title: How brain science will change computing. I do two things: I design mobile computers and I study brains. Today's talk is about brains and — (Audience member cheers) Yay! I have a brain fan out t...",
+        "score": 0.562267303
+      },
+      {
+        "talk_id": "2172",
+        "title": "Brain-to-brain communication has arrived. How we did it",
+        "speaker": "Miguel Nicolelis",
+        "chunk": ". And I forgot to mention, because of time, that just three weeks ago, a European group just demonstrated the first man-to-man brain-to-brain connection. BG: And how does that play? MN: There was one ...",
+        "score": 0.552374899
+      },
+      {
+        "talk_id": "184",
+        "title": "3 clues to understanding your brain",
+        "speaker": "Vilayanur Ramachandran",
+        "chunk": "Title: 3 clues to understanding your brain. Well, as Chris pointed out, I study the human brain, the functions and structure of the human brain. And I just want you to think for a minute about what th...",
+        "score": 0.549900115
+      }
+    ],
+    "scores": {
+      "faithfulness": 3,
+      "relevance": 3,
+      "completeness": 3,
+      "context_quality": 3,
+      "overall_score": 3,
+      "reasoning": "Failed to parse judge response"
+    },
+    "avg_similarity": 0.5599766014
+  },
+  {
+    "question": "Which TED talks focus on education or learning? Return a list of exactly 3 talk titles.",
+    "category": "Multi-Result Topic Listing",
+    "k_value": 5,
+    "response": "",
+    "context_chunks": [
+      {
+        "talk_id": "1315",
+        "title": "1,000 TED Talks in six words",
+        "speaker": "Sebastian Wernicke",
+        "chunk": ". But it's actually not, because there's an example by statistics professor Hans Rosling. I guess many of you have seen one or more of his talks. He's got eight talks online, and those can basically b...",
+        "score": 0.521003783
+      },
+      {
+        "talk_id": "2485",
+        "title": "TED's secret to great public speaking",
+        "speaker": "Chris Anderson",
+        "chunk": "Title: TED's secret to great public speaking. Some people think that there's a TED Talk formula: \"Give a talk on a round, red rug.\" \"Share a childhood story.\" \"Divulge a personal secret.\" \"End with an...",
+        "score": 0.508068144
+      },
+      {
+        "talk_id": "865",
+        "title": "Bring on the learning revolution!",
+        "speaker": "Sir Ken Robinson",
+        "chunk": "Title: Bring on the learning revolution!. I was here four years ago, and I remember, at the time, that the talks weren't put online. I think they were given to TEDsters in a box, a box set of DVDs, wh...",
+        "score": 0.505247176
+      },
+      {
+        "talk_id": "955",
+        "title": "How web video powers global innovation",
+        "speaker": "Chris Anderson",
+        "chunk": ". I mean, today, one person speaking can be seen by millions, shedding bright light on potent ideas, creating intense desire for learning and to respond — and in his case, intense desire to laugh. For...",
+        "score": 0.503875792
+      },
+      {
+        "talk_id": "955",
+        "title": "How web video powers global innovation",
+        "speaker": "Chris Anderson",
+        "chunk": ". And so, as we've thought about this, you know, it's become clear to us what the next stage of TED's evolution has to be. TEDTalks can't be a one-way process, one-to-many. Our future is many-to-many....",
+        "score": 0.501098692
+      }
+    ],
+    "scores": {
+      "faithfulness": 3,
+      "relevance": 3,
+      "completeness": 3,
+      "context_quality": 3,
+      "overall_score": 3,
+      "reasoning": "Failed to parse judge response"
+    },
+    "avg_similarity": 0.5078587174
+  },
+  {
+    "question": "List 3 TED talks about technology or innovation.",
+    "category": "Multi-Result Topic Listing",
+    "k_value": 5,
+    "response": "- \"How web video powers global innovation\" — Chris Anderson. The transcript says this talk explores \"a different way of thinking of large human crowds\" and how web video has \"impacted the way we think about TED's future, and perhaps the world's future overall,\" and opens with an online child (\"Lil Demon\") doing tricks — indicating the talk is about web video and innovation.\n\n- \"The anthropology of mobile phones\" — Jan Chipchase. The transcript notes \"it will innovate in ways that we cannot anticipate\" and speaks about \"another three billion people connected\" who \"want to be part of the conversation,\" signaling a focus on mobile technology and innovation.\n\n- \"Demand a fair trade cell phone\" — Bandi Mbubi. The transcript frames questions about technology — \"Where does it come from? Who makes it? And for what?\" — and references industry responses (Nokia policy, petition to Apple), showing the talk addresses cell-phone technology and its broader implications.",
+    "context_chunks": [
+      {
+        "talk_id": "955",
+        "title": "How web video powers global innovation",
+        "speaker": "Chris Anderson",
+        "chunk": "Title: How web video powers global innovation. If nothing else, at least I've discovered what it is we put our speakers through: sweaty palms, sleepless nights, a wholly unnatural fear of clocks. I me...",
+        "score": 0.530906677
+      },
+      {
+        "talk_id": "1378",
+        "title": "We need to talk about an injustice",
+        "speaker": "Bryan Stevenson",
+        "chunk": ". We love innovation. We love technology. We love creativity. We love entertainment. But ultimately, those realities are shadowed by suffering, abuse, degradation, marginalization. And for me, it beco...",
+        "score": 0.520551741
+      },
+      {
+        "talk_id": "1567",
+        "title": "Demand a fair trade cell phone",
+        "speaker": "Bandi Mbubi",
+        "chunk": ". TED has always celebrated what technology can do for us, technology in its finished form. It is time to be asking questions about technology. Where does it come from? Who makes it? And for what? Her...",
+        "score": 0.508136749
+      },
+      {
+        "talk_id": "2485",
+        "title": "TED's secret to great public speaking",
+        "speaker": "Chris Anderson",
+        "chunk": "Title: TED's secret to great public speaking. Some people think that there's a TED Talk formula: \"Give a talk on a round, red rug.\" \"Share a childhood story.\" \"Divulge a personal secret.\" \"End with an...",
+        "score": 0.507959366
+      },
+      {
+        "talk_id": "190",
+        "title": "The anthropology of mobile phones",
+        "speaker": "Jan Chipchase",
+        "chunk": ". And it will innovate in ways that we cannot anticipate. In ways that, despite our resources, they can do it better than us. That's my feeling. And if we're smart, we'll look at this stuff that's goi...",
+        "score": 0.507047653
+      }
+    ],
+    "scores": {
+      "faithfulness": 3,
+      "relevance": 3,
+      "completeness": 3,
+      "context_quality": 3,
+      "overall_score": 3,
+      "reasoning": "Failed to parse judge response"
+    },
+    "avg_similarity": 0.5149204372
+  },
+  {
+    "question": "Find a TED talk where the speaker talks about technology improving people's lives. Provide the title and a short summary of the key idea.",
+    "category": "Key Idea Summary",
+    "k_value": 5,
+    "response": "Title: How we need to remake the internet (Jaron Lanier)\n\nSummary of the key idea (from the provided transcript): Lanier argues that digital technology has enormous power that can either harm us or help us — in the 1980s the idealism of digital culture recognized that danger but aimed to \"transcend it with beauty and creativity.\" In other words, he calls for remaking the internet so the technology we love becomes a force that improves human life rather than \"our undoing\" (transcript: \"we knew that we were facing a knife-edge future where the technology we needed, the technology we loved, could also be our undoing\" and \"trying to imagine a way to transcend it with beauty and creativity\").",
+    "context_chunks": [
+      {
+        "talk_id": "1162",
+        "title": "We need a \"moral operating system\"",
+        "speaker": "Damon Horowitz",
+        "chunk": ". \"Did I evaluate what would be the highest pleasure like Mill would? Or like Kant, did I use reason to figure out what was intrinsically right?\" Think about it. Really bring it to mind. This is impor...",
+        "score": 0.568338394
+      },
+      {
+        "talk_id": "2485",
+        "title": "TED's secret to great public speaking",
+        "speaker": "Chris Anderson",
+        "chunk": "Title: TED's secret to great public speaking. Some people think that there's a TED Talk formula: \"Give a talk on a round, red rug.\" \"Share a childhood story.\" \"Divulge a personal secret.\" \"End with an...",
+        "score": 0.55586338
+      },
+      {
+        "talk_id": "846",
+        "title": "Lies, damned lies and statistics (about TEDTalks)",
+        "speaker": "Sebastian Wernicke",
+        "chunk": ". Now, with the topic: There's a whole range of topics you can choose, but you should choose wisely, because your topic strongly correlates with how users will react to your talk. Now, to make this mo...",
+        "score": 0.535277367
+      },
+      {
+        "talk_id": "14439",
+        "title": "How we need to remake the internet",
+        "speaker": "Jaron Lanier",
+        "chunk": "Title: How we need to remake the internet. Back in the 1980s, actually, I gave my first talk at TED, and I brought some of the very, very first public demonstrations of virtual reality ever to the TED...",
+        "score": 0.53486824
+      },
+      {
+        "talk_id": "1378",
+        "title": "We need to talk about an injustice",
+        "speaker": "Bryan Stevenson",
+        "chunk": ". We love innovation. We love technology. We love creativity. We love entertainment. But ultimately, those realities are shadowed by suffering, abuse, degradation, marginalization. And for me, it beco...",
+        "score": 0.530267775
+      }
+    ],
+    "scores": {
+      "faithfulness": 3,
+      "relevance": 3,
+      "completeness": 3,
+      "context_quality": 3,
+      "overall_score": 3,
+      "reasoning": "Failed to parse judge response"
+    },
+    "avg_similarity": 0.5449230312
+  },
+  {
+    "question": "Find a TED talk about creativity. Provide the title and summarize the speaker's main argument.",
+    "category": "Key Idea Summary",
+    "k_value": 5,
+    "response": "Title: How to build your creative confidence (David Kelley)\n\nMain argument (from the provided TED transcript): David Kelley argues that creativity is not a fixed trait reserved for a few — people are \"naturally creative\" and can learn to act on their ideas by building creative confidence (what he links to Bandura’s idea of self‑efficacy). As a result, people who gain that confidence \"quit what they're doing and go in new directions,\" generate \"more interesting — and just more — ideas\" to choose from, and \"just make better decisions.\" He urges not to \"let people divide the world into the creatives and the non‑creatives\" but to help everyone realize and exercise their creative capacity.",
+    "context_chunks": [
+      {
+        "talk_id": "250",
+        "title": "Where does creativity hide?",
+        "speaker": "Amy Tan",
+        "chunk": "Title: Where does creativity hide?. The Value of Nothing: Out of Nothing Comes Something. That was an essay I wrote when I was 11 years old and I got a B+. (Laughter) What I'm going to talk about: not...",
+        "score": 0.598209441
+      },
+      {
+        "talk_id": "2485",
+        "title": "TED's secret to great public speaking",
+        "speaker": "Chris Anderson",
+        "chunk": ". Here are just a few examples shared from the TED stage. Sir Ken Robinson — creativity is key to our kids' future. (Video) Sir Ken Robinson: My contention is that creativity now is as important in ed...",
+        "score": 0.582811415
+      },
+      {
+        "talk_id": "1449",
+        "title": "How to build your creative confidence",
+        "speaker": "David Kelley",
+        "chunk": ". We see people quit what they're doing and go in new directions. We see them come up with more interesting — and just more — ideas, so they can choose from better ideas. And they just make better dec...",
+        "score": 0.57233429
+      },
+      {
+        "talk_id": "2485",
+        "title": "TED's secret to great public speaking",
+        "speaker": "Chris Anderson",
+        "chunk": "Title: TED's secret to great public speaking. Some people think that there's a TED Talk formula: \"Give a talk on a round, red rug.\" \"Share a childhood story.\" \"Divulge a personal secret.\" \"End with an...",
+        "score": 0.570179939
+      },
+      {
+        "talk_id": "407",
+        "title": "Do the green thing",
+        "speaker": "Andy Hobsbawm",
+        "chunk": "Title: Do the green thing. Great creativity. In times of need, we need great creativity. Discuss. Great creativity is astonishingly, absurdly, rationally, irrationally powerful. Great creativity can s...",
+        "score": 0.559959412
+      }
+    ],
+    "scores": {
+      "faithfulness": 5,
+      "relevance": 5,
+      "completeness": 5,
+      "context_quality": 5,
+      "overall_score": 5,
+      "reasoning": "The response selects a talk present in the retrieved context and accurately summarizes the speaker's main argument using direct paraphrase and quotes from the provided transcript (references to Bandura/self-efficacy and quoted lines about quitting, generating more ideas, and better decisions). It directly answers the prompt (title + main-argument summary) and uses appropriate context."
+    },
+    "avg_similarity": 0.5766988994
+  },
+  {
+    "question": "I'm looking for a TED talk about climate change and what individuals can do in their daily lives. Which talk would you recommend?",
+    "category": "Recommendation with Justification",
+    "k_value": 5,
+    "response": "I would recommend Katharine Hayhoe’s talk, \"The most important thing you can do to fight climate change: talk about it,\" if you want a clear, simple daily action: she says \"the number one way is by talking about it\" and that \"that hope begins with a conversation today,\" emphasizing conversations people can have in their everyday lives.\n\nIf you’d like a complementary talk focused on how individual behaviors and storytelling spread socially, consider Per Espen Stoknes’s \"How to transform apocalypse fatigue into action on global warming\" — he highlights how \"enthusiastic EV owners go and tell their electric stories to friends and neighbors\" and that \"individual solutions... build stronger bottom-up support for policies and solutions.\"",
+    "context_chunks": [
+      {
+        "talk_id": "29968",
+        "title": "The most important thing you can do to fight climate change: talk about it",
+        "speaker": "Katharine Hayhoe",
+        "chunk": ". But in reality, that boulder is already at the top of the hill. And it's got hundreds of millions of hands, maybe even billions on it, pushing it down. It just isn't going fast enough. So how do we ...",
+        "score": 0.566787779
+      },
+      {
+        "talk_id": "60080",
+        "title": "How we could change the planet's climate future",
+        "speaker": "David Wallace-Wells",
+        "chunk": "Title: How we could change the planet's climate future. I'm here to talk about climate change, but I'm not really an environmentalist. In fact, I've never really thought of myself as a nature person. ...",
+        "score": 0.540448248
+      },
+      {
+        "talk_id": "4463",
+        "title": "How to transform apocalypse fatigue into action on global warming",
+        "speaker": "Per Espen Stoknes",
+        "chunk": ". Now, that's massive. And in Oslo, we can see how enthusiastic EV owners go and tell their electric stories to friends and neighbors and bring them along. So we come full circle from story back to so...",
+        "score": 0.53656584
+      },
+      {
+        "talk_id": "192",
+        "title": "A critical look at geoengineering against climate change",
+        "speaker": "David Keith",
+        "chunk": ". What I'm going to talk to you about tonight is stuff we might do if we did nothing. And it's this stuff in the middle here, which is what you do if you don't stop the emissions quickly enough. And y...",
+        "score": 0.534202576
+      },
+      {
+        "talk_id": "192",
+        "title": "A critical look at geoengineering against climate change",
+        "speaker": "David Keith",
+        "chunk": ". What I'm going to talk to you about tonight is stuff we might do if we did nothing. And it's this stuff in the middle here, which is what you do if you don't stop the emissions quickly enough. And y...",
+        "score": 0.533905089
+      }
+    ],
+    "scores": {
+      "faithfulness": 3,
+      "relevance": 3,
+      "completeness": 3,
+      "context_quality": 3,
+      "overall_score": 3,
+      "reasoning": "Failed to parse judge response"
+    },
+    "avg_similarity": 0.5423819064
+  },
+  {
+    "question": "Recommend a TED talk for someone interested in leadership. Explain why this talk is relevant.",
+    "category": "Recommendation with Justification",
+    "k_value": 5,
+    "response": "I recommend \"What it takes to be a great leader\" by Roselinde Torres.\n\nWhy it's relevant (from the talk):\n- It directly addresses what makes a great leader today: Torres says \"Great leaders dare to be different\" and frames leadership as preparing \"not for the comfortable predictability of yesterday but also for the realities of today and all of those unknown possibilities of tomorrow.\"\n- The talk highlights practical leadership qualities: building \"the emotional stamina to withstand people telling you that your new idea is naïve or reckless or just plain stupid,\" and recognising that the people who will join you \"are not your usual suspects in your network\" but \"often people that think differently.\"\n- Torres reframes leadership as a bold move — \"it's a leap, not a step\" — and says that \"answering these three questions will determine your effectiveness as a 21st-century leader,\" signaling actionable insights for anyone aiming to lead in modern, uncertain contexts.\n\nAll of these points are drawn from the talk's transcript and make it especially relevant for someone studying leadership.",
+    "context_chunks": [
+      {
+        "talk_id": "2485",
+        "title": "TED's secret to great public speaking",
+        "speaker": "Chris Anderson",
+        "chunk": "Title: TED's secret to great public speaking. Some people think that there's a TED Talk formula: \"Give a talk on a round, red rug.\" \"Share a childhood story.\" \"Divulge a personal secret.\" \"End with an...",
+        "score": 0.558998108
+      },
+      {
+        "talk_id": "1930",
+        "title": "What it takes to be a great leader",
+        "speaker": "Roselinde Torres",
+        "chunk": ". Great leaders dare to be different. They don't just talk about risk-taking, they actually do it. And one of the leaders shared with me the fact that the most impactful development comes when you are...",
+        "score": 0.546976089
+      },
+      {
+        "talk_id": "70",
+        "title": "8 secrets of success",
+        "speaker": "Richard St. John",
+        "chunk": "Title: 8 secrets of success. This is really a two-hour presentation I give to high school students, cut down to three minutes. And it all started one day on a plane, on my way to TED, seven years ago....",
+        "score": 0.541788161
+      },
+      {
+        "talk_id": "70",
+        "title": "8 secrets of success",
+        "speaker": "Richard St. John",
+        "chunk": "Title: 8 secrets of success. This is really a two-hour presentation I give to high school students, cut down to three minutes. And it all started one day on a plane, on my way to TED, seven years ago....",
+        "score": 0.541664183
+      },
+      {
+        "talk_id": "2665",
+        "title": "If a story moves you, act on it",
+        "speaker": "Sisonke Msimang",
+        "chunk": "Title: If a story moves you, act on it. So earlier this year, I was informed that I would be doing a TED Talk. So I was excited, then I panicked, then I was excited, then I panicked, and in between th...",
+        "score": 0.540407181
+      }
+    ],
+    "scores": {
+      "faithfulness": 5,
+      "relevance": 5,
+      "completeness": 5,
+      "context_quality": 5,
+      "overall_score": 5,
+      "reasoning": "The recommendation cites specific lines from the provided Roselinde Torres transcript and stays within that context, directly answering the request for one leadership talk with grounded justification. The retrieved chunk was highly relevant and enabled a complete, faithful justification."
+    },
+    "avg_similarity": 0.5459667444
+  },
+  {
+    "question": "Find a TED talk that discusses overcoming fear or anxiety. Provide the title and speaker.",
+    "category": "Precise Fact Retrieval",
+    "k_value": 10,
+    "response": "Title: \"The science of stage fright (and how to overcome it)\"\nSpeaker: Mikael Cho\n\nI know this from the transcript: it begins, \"Palms sweaty, heart racing, stomach in knots... you aren't being stalked by a monster, you're speaking in public,\" and explicitly says \"so you have to try and overcome it\" and \"To start, understand what stage fright is,\" showing the talk is about overcoming fear of public speaking.",
+    "context_chunks": [
+      {
+        "talk_id": "1962",
+        "title": "It's TED, the Musical",
+        "speaker": "The TED Staff",
+        "chunk": ". Understand me still. ♪ ♪ I'm too nervous to give this TED Talk. ♪ All: ♪ Don't give up. Rehearse. You're good. ♪ ♪ We'll edit out the mistakes that you make. ♪ ♪ Give your talk. ♪ DH: ♪ I will be bi...",
+        "score": 0.538779259
+      },
+      {
+        "talk_id": "2746",
+        "title": "The science of stage fright (and how to overcome it)",
+        "speaker": "Mikael Cho",
+        "chunk": "Title: The science of stage fright (and how to overcome it). Palms sweaty, heart racing, stomach in knots. You can't cry for help. Not only is your throat too tight to breathe, but it'd be so embarras...",
+        "score": 0.517548561
+      },
+      {
+        "talk_id": "2665",
+        "title": "If a story moves you, act on it",
+        "speaker": "Sisonke Msimang",
+        "chunk": "Title: If a story moves you, act on it. So earlier this year, I was informed that I would be doing a TED Talk. So I was excited, then I panicked, then I was excited, then I panicked, and in between th...",
+        "score": 0.515610695
+      },
+      {
+        "talk_id": "2485",
+        "title": "TED's secret to great public speaking",
+        "speaker": "Chris Anderson",
+        "chunk": "Title: TED's secret to great public speaking. Some people think that there's a TED Talk formula: \"Give a talk on a round, red rug.\" \"Share a childhood story.\" \"Divulge a personal secret.\" \"End with an...",
+        "score": 0.508173943
+      },
+      {
+        "talk_id": "2809",
+        "title": "Don't feel sorry for refugees -- believe in them",
+        "speaker": "Luma Mufleh",
+        "chunk": "Title: Don't feel sorry for refugees -- believe in them. I remember when I first found out I was going to speak at a TED conference. I ran across the hall to one of my classrooms to inform my students...",
+        "score": 0.501777649
+      },
+      {
+        "talk_id": "1391",
+        "title": "Listening to shame",
+        "speaker": "Brené Brown",
+        "chunk": "Title: Listening to shame. I'm going to tell you a little bit about my TEDxHouston Talk. I woke up the morning after I gave that talk with the worst vulnerability hangover of my life. And I actually d...",
+        "score": 0.498707771
+      },
+      {
+        "talk_id": "3269",
+        "title": "The revolutionary power of diverse thought",
+        "speaker": "Elif Shafak",
+        "chunk": ". We're also interested in our own silences. I have always been very vocal about and written extensively about minority rights, women's rights, LGBT rights. But as I was thinking about this TED Talk, ...",
+        "score": 0.49588874
+      },
+      {
+        "talk_id": "1542",
+        "title": "Fighting with nonviolence",
+        "speaker": "Scilla Elworthy",
+        "chunk": ". But she told the students to sit down. And she walked forward with such calm and such clarity and such total lack of fear that she could walk right up to the first gun, put her hand on it and lower ...",
+        "score": 0.495170623
+      },
+      {
+        "talk_id": "1391",
+        "title": "Listening to shame",
+        "speaker": "Brené Brown",
+        "chunk": ". I define vulnerability as emotional risk, exposure, uncertainty. It fuels our daily lives. And I've come to the belief — this is my 12th year doing this research — that vulnerability is our most acc...",
+        "score": 0.494405746
+      },
+      {
+        "talk_id": "2485",
+        "title": "TED's secret to great public speaking",
+        "speaker": "Chris Anderson",
+        "chunk": ". And even though these speakers and their topics all seem completely different, they actually do have one key common ingredient. And it's this: Your number one task as a speaker is to transfer into y...",
+        "score": 0.492612839
+      }
+    ],
+    "scores": {
+      "faithfulness": 5,
+      "relevance": 5,
+      "completeness": 5,
+      "context_quality": 5,
+      "overall_score": 5,
+      "reasoning": "The response correctly identifies a talk that addresses overcoming fear (stage fright) and cites transcript lines from the provided context. It directly answers the prompt with the required title and speaker, and the retrieved chunks included the relevant talk and supporting transcript."
+    },
+    "avg_similarity": 0.5058675826
+  },
+  {
+    "question": "Find a TED talk about the human brain. Provide the title and speaker.",
+    "category": "Precise Fact Retrieval",
+    "k_value": 10,
+    "response": "Title: \"3 clues to understanding your brain\"\nSpeaker: Vilayanur Ramachandran\n\nI know this from the provided TED transcript where the talk is labeled \"Title: 3 clues to understanding your brain\" and Ramachandran says, \"Well, as Chris pointed out, I study the human brain, the functions and structure of the human brain.\"",
+    "context_chunks": [
+      {
+        "talk_id": "2485",
+        "title": "TED's secret to great public speaking",
+        "speaker": "Chris Anderson",
+        "chunk": ". And even though these speakers and their topics all seem completely different, they actually do have one key common ingredient. And it's this: Your number one task as a speaker is to transfer into y...",
+        "score": 0.572947502
+      },
+      {
+        "talk_id": "125",
+        "title": "How brain science will change computing",
+        "speaker": "Jeff Hawkins",
+        "chunk": "Title: How brain science will change computing. I do two things: I design mobile computers and I study brains. Today's talk is about brains and — (Audience member cheers) Yay! I have a brain fan out t...",
+        "score": 0.562393188
+      },
+      {
+        "talk_id": "125",
+        "title": "How brain science will change computing",
+        "speaker": "Jeff Hawkins",
+        "chunk": "Title: How brain science will change computing. I do two things: I design mobile computers and I study brains. Today's talk is about brains and — (Audience member cheers) Yay! I have a brain fan out t...",
+        "score": 0.562267303
+      },
+      {
+        "talk_id": "2172",
+        "title": "Brain-to-brain communication has arrived. How we did it",
+        "speaker": "Miguel Nicolelis",
+        "chunk": ". And I forgot to mention, because of time, that just three weeks ago, a European group just demonstrated the first man-to-man brain-to-brain connection. BG: And how does that play? MN: There was one ...",
+        "score": 0.552374899
+      },
+      {
+        "talk_id": "184",
+        "title": "3 clues to understanding your brain",
+        "speaker": "Vilayanur Ramachandran",
+        "chunk": "Title: 3 clues to understanding your brain. Well, as Chris pointed out, I study the human brain, the functions and structure of the human brain. And I just want you to think for a minute about what th...",
+        "score": 0.549900115
+      },
+      {
+        "talk_id": "184",
+        "title": "3 clues to understanding your brain",
+        "speaker": "Vilayanur Ramachandran",
+        "chunk": "Title: 3 clues to understanding your brain. Well, as Chris pointed out, I study the human brain, the functions and structure of the human brain. And I just want you to think for a minute about what th...",
+        "score": 0.549667358
+      },
+      {
+        "talk_id": "724",
+        "title": "The neurons that shaped civilization",
+        "speaker": "Vilayanur Ramachandran",
+        "chunk": "Title: The neurons that shaped civilization. I'd like to talk to you today about the human brain, which is what we do research on at the University of California. Just think about this problem for a s...",
+        "score": 0.545171797
+      },
+      {
+        "talk_id": "630",
+        "title": "How we read each other's minds",
+        "speaker": "Rebecca Saxe",
+        "chunk": ". The whole research program here of studying the distinctive parts of the human brain is brand new. Until recently, what we knew about the brain were the things that any other animal's brain could do...",
+        "score": 0.522829056
+      },
+      {
+        "talk_id": "2077",
+        "title": "A neural portrait of the human mind",
+        "speaker": "Nancy Kanwisher",
+        "chunk": "Title: A neural portrait of the human mind. Today I want to tell you about a project being carried out by scientists all over the world to paint a neural portrait of the human mind. And the central id...",
+        "score": 0.520401
+      },
+      {
+        "talk_id": "1267",
+        "title": "A map of the brain",
+        "speaker": "Allan Jones",
+        "chunk": "Title: A map of the brain. Humans have long held a fascination for the human brain. We chart it, we've described it, we've drawn it, we've mapped it. Now just like the physical maps of our world that ...",
+        "score": 0.511967659
+      }
+    ],
+    "scores": {
+      "faithfulness": 3,
+      "relevance": 3,
+      "completeness": 3,
+      "context_quality": 3,
+      "overall_score": 3,
+      "reasoning": "Failed to parse judge response"
+    },
+    "avg_similarity": 0.5449919877
+  },
+  {
+    "question": "Which TED talks focus on education or learning? Return a list of exactly 3 talk titles.",
+    "category": "Multi-Result Topic Listing",
+    "k_value": 10,
+    "response": "- Bring on the learning revolution!\n  - Justified by the talk title and context in the provided TED data (title explicitly names a \"learning revolution\").\n\n- How web video powers global innovation\n  - The transcript explicitly discusses education and learning: \"creating intense desire for learning ... talented students don't have to have their potential ... They can sit two feet in front of the world's finest,\" and asks whether a similar process could happen \"to global education\" and notes \"Schools can't be silos. We can't stop learning at age 21.\"\n\n- The birth of the open-source learning revolution\n  - The transcript links the talk to education and open content: \"Connexions and open content is all about sharing knowledge ... invite each and every one of you to contribute ... together we can truly change the landscape of education and educational publishing.\"",
+    "context_chunks": [
+      {
+        "talk_id": "1315",
+        "title": "1,000 TED Talks in six words",
+        "speaker": "Sebastian Wernicke",
+        "chunk": ". But it's actually not, because there's an example by statistics professor Hans Rosling. I guess many of you have seen one or more of his talks. He's got eight talks online, and those can basically b...",
+        "score": 0.521003783
+      },
+      {
+        "talk_id": "2485",
+        "title": "TED's secret to great public speaking",
+        "speaker": "Chris Anderson",
+        "chunk": "Title: TED's secret to great public speaking. Some people think that there's a TED Talk formula: \"Give a talk on a round, red rug.\" \"Share a childhood story.\" \"Divulge a personal secret.\" \"End with an...",
+        "score": 0.508068144
+      },
+      {
+        "talk_id": "865",
+        "title": "Bring on the learning revolution!",
+        "speaker": "Sir Ken Robinson",
+        "chunk": "Title: Bring on the learning revolution!. I was here four years ago, and I remember, at the time, that the talks weren't put online. I think they were given to TEDsters in a box, a box set of DVDs, wh...",
+        "score": 0.505247176
+      },
+      {
+        "talk_id": "955",
+        "title": "How web video powers global innovation",
+        "speaker": "Chris Anderson",
+        "chunk": ". I mean, today, one person speaking can be seen by millions, shedding bright light on potent ideas, creating intense desire for learning and to respond — and in his case, intense desire to laugh. For...",
+        "score": 0.503875792
+      },
+      {
+        "talk_id": "955",
+        "title": "How web video powers global innovation",
+        "speaker": "Chris Anderson",
+        "chunk": ". And so, as we've thought about this, you know, it's become clear to us what the next stage of TED's evolution has to be. TEDTalks can't be a one-way process, one-to-many. Our future is many-to-many....",
+        "score": 0.501098692
+      },
+      {
+        "talk_id": "2264",
+        "title": "Gorgeous portraits of the world's vanishing people",
+        "speaker": "Jimmy Nelson",
+        "chunk": ". You must know about it.\" And I said, \"I've been in a teepee and in a yurt for the last five years. How do I know who Ted is? Introduce me to him.\" Anyway, to cut a long story short, he said, \"We hav...",
+        "score": 0.49261862
+      },
+      {
+        "talk_id": "846",
+        "title": "Lies, damned lies and statistics (about TEDTalks)",
+        "speaker": "Sebastian Wernicke",
+        "chunk": ". Now, with the topic: There's a whole range of topics you can choose, but you should choose wisely, because your topic strongly correlates with how users will react to your talk. Now, to make this mo...",
+        "score": 0.484640151
+      },
+      {
+        "talk_id": "1315",
+        "title": "1,000 TED Talks in six words",
+        "speaker": "Sebastian Wernicke",
+        "chunk": "Title: 1,000 TED Talks in six words. There's currently over a thousand TED Talks on the TED website. And I guess many of you here think that this is quite fantastic, except for me, I don't agree with ...",
+        "score": 0.477687865
+      },
+      {
+        "talk_id": "846",
+        "title": "Lies, damned lies and statistics (about TEDTalks)",
+        "speaker": "Sebastian Wernicke",
+        "chunk": "Title: Lies, damned lies and statistics (about TEDTalks). If you go on the TED website, you can currently find there over a full week of TEDTalk videos, over 1.3 million words of transcripts and milli...",
+        "score": 0.476848632
+      },
+      {
+        "talk_id": "25",
+        "title": "The birth of the open-source learning revolution",
+        "speaker": "Richard Baraniuk",
+        "chunk": ". And you can think of TED as a potential lens. So I'd just like to end by saying: you can really view this as a call to action. Connexions and open content is all about sharing knowledge. All of you ...",
+        "score": 0.46569255
+      }
+    ],
+    "scores": {
+      "faithfulness": 3,
+      "relevance": 3,
+      "completeness": 3,
+      "context_quality": 3,
+      "overall_score": 3,
+      "reasoning": "Failed to parse judge response"
+    },
+    "avg_similarity": 0.4936781405
+  },
+  {
+    "question": "List 3 TED talks about technology or innovation.",
+    "category": "Multi-Result Topic Listing",
+    "k_value": 10,
+    "response": "- \"How web video powers global innovation\" — Chris Anderson. Evidence: the title and opening describe the theme and online phenomenon (transcript: \"Title: How web video powers global innovation\" … \"The story starts with just a single person, a child, behaving a little strangely. This kid is known online as Lil Demon.\").\n- \"The anthropology of mobile phones\" — Jan Chipchase. Evidence: the talk ties mobile connectivity to unforeseen innovation (transcript: \"And it will innovate in ways that we cannot anticipate.\" … \"With another three billion people connected, they want to be part of the conversation.\").\n- \"How we need to remake the internet\" — Jaron Lanier. Evidence: the talk directly addresses internet technology and its future (transcript: \"Title: How we need to remake the internet.\" … \"we were facing a knife-edge future where the technology we needed, the technology we loved, could also be our undoing.\").",
+    "context_chunks": [
+      {
+        "talk_id": "955",
+        "title": "How web video powers global innovation",
+        "speaker": "Chris Anderson",
+        "chunk": "Title: How web video powers global innovation. If nothing else, at least I've discovered what it is we put our speakers through: sweaty palms, sleepless nights, a wholly unnatural fear of clocks. I me...",
+        "score": 0.530906677
+      },
+      {
+        "talk_id": "1378",
+        "title": "We need to talk about an injustice",
+        "speaker": "Bryan Stevenson",
+        "chunk": ". We love innovation. We love technology. We love creativity. We love entertainment. But ultimately, those realities are shadowed by suffering, abuse, degradation, marginalization. And for me, it beco...",
+        "score": 0.520551741
+      },
+      {
+        "talk_id": "1567",
+        "title": "Demand a fair trade cell phone",
+        "speaker": "Bandi Mbubi",
+        "chunk": ". TED has always celebrated what technology can do for us, technology in its finished form. It is time to be asking questions about technology. Where does it come from? Who makes it? And for what? Her...",
+        "score": 0.508136749
+      },
+      {
+        "talk_id": "2485",
+        "title": "TED's secret to great public speaking",
+        "speaker": "Chris Anderson",
+        "chunk": "Title: TED's secret to great public speaking. Some people think that there's a TED Talk formula: \"Give a talk on a round, red rug.\" \"Share a childhood story.\" \"Divulge a personal secret.\" \"End with an...",
+        "score": 0.507959366
+      },
+      {
+        "talk_id": "190",
+        "title": "The anthropology of mobile phones",
+        "speaker": "Jan Chipchase",
+        "chunk": ". And it will innovate in ways that we cannot anticipate. In ways that, despite our resources, they can do it better than us. That's my feeling. And if we're smart, we'll look at this stuff that's goi...",
+        "score": 0.507047653
+      },
+      {
+        "talk_id": "190",
+        "title": "The anthropology of mobile phones",
+        "speaker": "Jan Chipchase",
+        "chunk": ". And it will innovate in ways that we cannot anticipate. In ways that, despite our resources, they can do it better than us. That's my feeling. And if we're smart, we'll look at this stuff that's goi...",
+        "score": 0.506999969
+      },
+      {
+        "talk_id": "14439",
+        "title": "How we need to remake the internet",
+        "speaker": "Jaron Lanier",
+        "chunk": "Title: How we need to remake the internet. Back in the 1980s, actually, I gave my first talk at TED, and I brought some of the very, very first public demonstrations of virtual reality ever to the TED...",
+        "score": 0.503538132
+      },
+      {
+        "talk_id": "846",
+        "title": "Lies, damned lies and statistics (about TEDTalks)",
+        "speaker": "Sebastian Wernicke",
+        "chunk": ". Now, with the topic: There's a whole range of topics you can choose, but you should choose wisely, because your topic strongly correlates with how users will react to your talk. Now, to make this mo...",
+        "score": 0.491380692
+      },
+      {
+        "talk_id": "441",
+        "title": "The extraordinary power of ordinary people",
+        "speaker": "Sherwin Nuland",
+        "chunk": "Title: The extraordinary power of ordinary people. You know, I am so bad at tech that my daughter — who is now 41 — when she was five, was overheard by me to say to a friend of hers, If it doesn't ble...",
+        "score": 0.491201401
+      },
+      {
+        "talk_id": "846",
+        "title": "Lies, damned lies and statistics (about TEDTalks)",
+        "speaker": "Sebastian Wernicke",
+        "chunk": ". And the more technical topics, such as architecture, materials and, strangely enough, men, those are not good topics to talk about. How should you deliver your talk? TED is famous for keeping a very...",
+        "score": 0.484727859
+      }
+    ],
+    "scores": {
+      "faithfulness": 3,
+      "relevance": 3,
+      "completeness": 3,
+      "context_quality": 3,
+      "overall_score": 3,
+      "reasoning": "Failed to parse judge response"
+    },
+    "avg_similarity": 0.5052450238999999
+  },
+  {
+    "question": "Find a TED talk where the speaker talks about technology improving people's lives. Provide the title and a short summary of the key idea.",
+    "category": "Key Idea Summary",
+    "k_value": 10,
+    "response": "Title: \"The thinking behind 50x15\" — Hector Ruiz\n\nSummary: Ruiz describes how technology enabled key \"accidents\" in his life and argues we can use technology to make those positive accidents happen more often. As he puts it, \"technology played a big role in that\" and \"technology is a tremendous enabler; a very powerful tool to help address some of these challenges\" — especially in service of children and education.",
+    "context_chunks": [
+      {
+        "talk_id": "1162",
+        "title": "We need a \"moral operating system\"",
+        "speaker": "Damon Horowitz",
+        "chunk": ". \"Did I evaluate what would be the highest pleasure like Mill would? Or like Kant, did I use reason to figure out what was intrinsically right?\" Think about it. Really bring it to mind. This is impor...",
+        "score": 0.568338394
+      },
+      {
+        "talk_id": "2485",
+        "title": "TED's secret to great public speaking",
+        "speaker": "Chris Anderson",
+        "chunk": "Title: TED's secret to great public speaking. Some people think that there's a TED Talk formula: \"Give a talk on a round, red rug.\" \"Share a childhood story.\" \"Divulge a personal secret.\" \"End with an...",
+        "score": 0.55586338
+      },
+      {
+        "talk_id": "846",
+        "title": "Lies, damned lies and statistics (about TEDTalks)",
+        "speaker": "Sebastian Wernicke",
+        "chunk": ". Now, with the topic: There's a whole range of topics you can choose, but you should choose wisely, because your topic strongly correlates with how users will react to your talk. Now, to make this mo...",
+        "score": 0.535277367
+      },
+      {
+        "talk_id": "14439",
+        "title": "How we need to remake the internet",
+        "speaker": "Jaron Lanier",
+        "chunk": "Title: How we need to remake the internet. Back in the 1980s, actually, I gave my first talk at TED, and I brought some of the very, very first public demonstrations of virtual reality ever to the TED...",
+        "score": 0.53486824
+      },
+      {
+        "talk_id": "1378",
+        "title": "We need to talk about an injustice",
+        "speaker": "Bryan Stevenson",
+        "chunk": ". We love innovation. We love technology. We love creativity. We love entertainment. But ultimately, those realities are shadowed by suffering, abuse, degradation, marginalization. And for me, it beco...",
+        "score": 0.530267775
+      },
+      {
+        "talk_id": "1315",
+        "title": "1,000 TED Talks in six words",
+        "speaker": "Sebastian Wernicke",
+        "chunk": ". But it's actually not, because there's an example by statistics professor Hans Rosling. I guess many of you have seen one or more of his talks. He's got eight talks online, and those can basically b...",
+        "score": 0.527374268
+      },
+      {
+        "talk_id": "255",
+        "title": "The thinking behind 50x15",
+        "speaker": "Hector Ruiz",
+        "chunk": "Title: The thinking behind 50x15. You know, one of the things that I'd like to say upfront is that I'm really here by accident. And what I mean — not at TED — that I'm — at this point in my life, trul...",
+        "score": 0.524803162
+      },
+      {
+        "talk_id": "1315",
+        "title": "1,000 TED Talks in six words",
+        "speaker": "Sebastian Wernicke",
+        "chunk": ". And I also encountered a project called Six-Word Memoirs where people were asked, take your whole life and please sum this up into six words, such as these here: \"Found true love, married someone el...",
+        "score": 0.52098459
+      },
+      {
+        "talk_id": "846",
+        "title": "Lies, damned lies and statistics (about TEDTalks)",
+        "speaker": "Sebastian Wernicke",
+        "chunk": "Title: Lies, damned lies and statistics (about TEDTalks). If you go on the TED website, you can currently find there over a full week of TEDTalk videos, over 1.3 million words of transcripts and milli...",
+        "score": 0.520701408
+      },
+      {
+        "talk_id": "312",
+        "title": "The new era of positive psychology",
+        "speaker": "Martin Seligman",
+        "chunk": ". So, Chris said that the last speaker had a chance to try to integrate what he heard, and so this was amazing for me. I've never been in a gathering like this. I've never seen speakers stretch beyond...",
+        "score": 0.520441055
+      }
+    ],
+    "scores": {
+      "faithfulness": 3,
+      "relevance": 3,
+      "completeness": 3,
+      "context_quality": 3,
+      "overall_score": 3,
+      "reasoning": "Failed to parse judge response"
+    },
+    "avg_similarity": 0.5338919639
+  },
+  {
+    "question": "Find a TED talk about creativity. Provide the title and summarize the speaker's main argument.",
+    "category": "Key Idea Summary",
+    "k_value": 10,
+    "response": "Title: \"How to build your creative confidence\" — David Kelley\n\nSummary of the speaker's main argument (based on the provided TED transcript):\nDavid Kelley argues that creativity is not an innate, fixed trait reserved for a few people; instead, we can all build \"creative confidence.\" When people gain that confidence they \"come up with more interesting — and just more — ideas,\" can \"choose from better ideas,\" and \"just make better decisions.\" Kelley urges us not to \"divide the world into the creatives and the non-creatives\" but to help people achieve what Bandura calls \"self-efficacy\" so they can \"reach a place of creative confidence.\" He frames this as his mission — to help people realize they are naturally creative and let their ideas fly.",
+    "context_chunks": [
+      {
+        "talk_id": "250",
+        "title": "Where does creativity hide?",
+        "speaker": "Amy Tan",
+        "chunk": "Title: Where does creativity hide?. The Value of Nothing: Out of Nothing Comes Something. That was an essay I wrote when I was 11 years old and I got a B+. (Laughter) What I'm going to talk about: not...",
+        "score": 0.598209441
+      },
+      {
+        "talk_id": "2485",
+        "title": "TED's secret to great public speaking",
+        "speaker": "Chris Anderson",
+        "chunk": ". Here are just a few examples shared from the TED stage. Sir Ken Robinson — creativity is key to our kids' future. (Video) Sir Ken Robinson: My contention is that creativity now is as important in ed...",
+        "score": 0.582811415
+      },
+      {
+        "talk_id": "1449",
+        "title": "How to build your creative confidence",
+        "speaker": "David Kelley",
+        "chunk": ". We see people quit what they're doing and go in new directions. We see them come up with more interesting — and just more — ideas, so they can choose from better ideas. And they just make better dec...",
+        "score": 0.57233429
+      },
+      {
+        "talk_id": "2485",
+        "title": "TED's secret to great public speaking",
+        "speaker": "Chris Anderson",
+        "chunk": "Title: TED's secret to great public speaking. Some people think that there's a TED Talk formula: \"Give a talk on a round, red rug.\" \"Share a childhood story.\" \"Divulge a personal secret.\" \"End with an...",
+        "score": 0.570179939
+      },
+      {
+        "talk_id": "407",
+        "title": "Do the green thing",
+        "speaker": "Andy Hobsbawm",
+        "chunk": "Title: Do the green thing. Great creativity. In times of need, we need great creativity. Discuss. Great creativity is astonishingly, absurdly, rationally, irrationally powerful. Great creativity can s...",
+        "score": 0.559959412
+      },
+      {
+        "talk_id": "70",
+        "title": "8 secrets of success",
+        "speaker": "Richard St. John",
+        "chunk": ". And there's no magic to creativity in coming up with ideas — it's just doing some very simple things. And I give lots of evidence. Persist! Joe Kraus says, \"Persistence is the number one reason for ...",
+        "score": 0.553134918
+      },
+      {
+        "talk_id": "70",
+        "title": "8 secrets of success",
+        "speaker": "Richard St. John",
+        "chunk": ". And there's no magic to creativity in coming up with ideas — it's just doing some very simple things. And I give lots of evidence. Persist! Joe Kraus says, \"Persistence is the number one reason for ...",
+        "score": 0.55304718
+      },
+      {
+        "talk_id": "32",
+        "title": "Art with wire, sugar, chocolate and string",
+        "speaker": "Vik Muniz",
+        "chunk": "Title: Art with wire, sugar, chocolate and string. I was asked to come here and speak about creation. And I only have 15 minutes, and I see they're counting already. And I can — in 15 minutes, I think...",
+        "score": 0.539070129
+      },
+      {
+        "talk_id": "32",
+        "title": "Art with wire, sugar, chocolate and string",
+        "speaker": "Vik Muniz",
+        "chunk": "Title: Art with wire, sugar, chocolate and string. I was asked to come here and speak about creation. And I only have 15 minutes, and I see they're counting already. And I can — in 15 minutes, I think...",
+        "score": 0.538911819
+      },
+      {
+        "talk_id": "63",
+        "title": "The era of open innovation",
+        "speaker": "Charles Leadbeater",
+        "chunk": ". So this is a huge challenge to the way we think creativity comes about. The traditional view, still enshrined in much of the way that we think about creativity — in organizations, in government — is...",
+        "score": 0.531557083
+      }
+    ],
+    "scores": {
+      "faithfulness": 5,
+      "relevance": 5,
+      "completeness": 5,
+      "context_quality": 5,
+      "overall_score": 5,
+      "reasoning": "The response selects a relevant TED talk from the retrieved context and summarizes the speaker's main argument using direct phrases and accurate paraphrase from the provided transcript (mentions creative confidence, self-efficacy, and rejecting the divide between creatives and non-creatives). It stays grounded in the given excerpts and fulfills the requirement to provide title and main-argument summary."
+    },
+    "avg_similarity": 0.5599215625999999
+  },
+  {
+    "question": "I'm looking for a TED talk about climate change and what individuals can do in their daily lives. Which talk would you recommend?",
+    "category": "Recommendation with Justification",
+    "k_value": 10,
+    "response": "I recommend Katharine Hayhoe — \"The most important thing you can do to fight climate change: talk about it.\" In the transcript she gives concrete, everyday actions people can take: “Yes, light bulbs. I love my plug-in car. I'd like some solar shingles,” and imagines “a switch beside the front door, that when you left the house, you could turn off everything except your fridge. And maybe the DVR.” She also highlights lifestyle choices such as “eating local, eating lower down the food chain and reducing food waste,” and even discusses personal carbon-footprint choices like travel. Those specific, day-to-day examples make her talk a good fit for what you described.\n\n(If you want talks more focused on individual behavior framed around adaptation or business leadership, Alice Bows-Larkin and John Doerr in the provided dataset also discuss lifestyle choices and personal/organizational actions.)",
+    "context_chunks": [
+      {
+        "talk_id": "29968",
+        "title": "The most important thing you can do to fight climate change: talk about it",
+        "speaker": "Katharine Hayhoe",
+        "chunk": ". But in reality, that boulder is already at the top of the hill. And it's got hundreds of millions of hands, maybe even billions on it, pushing it down. It just isn't going fast enough. So how do we ...",
+        "score": 0.566787779
+      },
+      {
+        "talk_id": "60080",
+        "title": "How we could change the planet's climate future",
+        "speaker": "David Wallace-Wells",
+        "chunk": "Title: How we could change the planet's climate future. I'm here to talk about climate change, but I'm not really an environmentalist. In fact, I've never really thought of myself as a nature person. ...",
+        "score": 0.540448248
+      },
+      {
+        "talk_id": "4463",
+        "title": "How to transform apocalypse fatigue into action on global warming",
+        "speaker": "Per Espen Stoknes",
+        "chunk": ". Now, that's massive. And in Oslo, we can see how enthusiastic EV owners go and tell their electric stories to friends and neighbors and bring them along. So we come full circle from story back to so...",
+        "score": 0.53656584
+      },
+      {
+        "talk_id": "192",
+        "title": "A critical look at geoengineering against climate change",
+        "speaker": "David Keith",
+        "chunk": ". What I'm going to talk to you about tonight is stuff we might do if we did nothing. And it's this stuff in the middle here, which is what you do if you don't stop the emissions quickly enough. And y...",
+        "score": 0.534202576
+      },
+      {
+        "talk_id": "192",
+        "title": "A critical look at geoengineering against climate change",
+        "speaker": "David Keith",
+        "chunk": ". What I'm going to talk to you about tonight is stuff we might do if we did nothing. And it's this stuff in the middle here, which is what you do if you don't stop the emissions quickly enough. And y...",
+        "score": 0.533905089
+      },
+      {
+        "talk_id": "32560",
+        "title": "The disarming case to act right now on climate change",
+        "speaker": "Greta Thunberg",
+        "chunk": "Title: The disarming case to act right now on climate change. When I was about eight years old, I first heard about something called climate change or global warming. Apparently, that was something hu...",
+        "score": 0.531816542
+      },
+      {
+        "talk_id": "128",
+        "title": "Salvation (and profit) in greentech",
+        "speaker": "John Doerr",
+        "chunk": ". Everyone here cares about changing the world and has made a difference in that one way or another. So, our call to action — my call to you — is for you to make going green your next big thing, your ...",
+        "score": 0.531272948
+      },
+      {
+        "talk_id": "128",
+        "title": "Salvation (and profit) in greentech",
+        "speaker": "John Doerr",
+        "chunk": ". Everyone here cares about changing the world and has made a difference in that one way or another. So, our call to action — my call to you — is for you to make going green your next big thing, your ...",
+        "score": 0.530986845
+      },
+      {
+        "talk_id": "2339",
+        "title": "Climate change is happening. Here's how we adapt",
+        "speaker": "Alice Bows-Larkin",
+        "chunk": "Title: Climate change is happening. Here's how we adapt. Over our lifetimes, we've all contributed to climate change. Actions, choices and behaviors will have led to an increase in greenhouse gas emis...",
+        "score": 0.528507292
+      },
+      {
+        "talk_id": "29968",
+        "title": "The most important thing you can do to fight climate change: talk about it",
+        "speaker": "Katharine Hayhoe",
+        "chunk": ". (Laughter) There's simple solutions that save us money and reduce our carbon footprint at the same time. Yes, light bulbs. I love my plug-in car. I'd like some solar shingles. But imagine if every h...",
+        "score": 0.528324187
+      }
+    ],
+    "scores": {
+      "faithfulness": 3,
+      "relevance": 3,
+      "completeness": 3,
+      "context_quality": 3,
+      "overall_score": 3,
+      "reasoning": "Failed to parse judge response"
+    },
+    "avg_similarity": 0.5362817346
+  },
+  {
+    "question": "Recommend a TED talk for someone interested in leadership. Explain why this talk is relevant.",
+    "category": "Recommendation with Justification",
+    "k_value": 10,
+    "response": "",
+    "context_chunks": [
+      {
+        "talk_id": "2485",
+        "title": "TED's secret to great public speaking",
+        "speaker": "Chris Anderson",
+        "chunk": "Title: TED's secret to great public speaking. Some people think that there's a TED Talk formula: \"Give a talk on a round, red rug.\" \"Share a childhood story.\" \"Divulge a personal secret.\" \"End with an...",
+        "score": 0.558998108
+      },
+      {
+        "talk_id": "1930",
+        "title": "What it takes to be a great leader",
+        "speaker": "Roselinde Torres",
+        "chunk": ". Great leaders dare to be different. They don't just talk about risk-taking, they actually do it. And one of the leaders shared with me the fact that the most impactful development comes when you are...",
+        "score": 0.546976089
+      },
+      {
+        "talk_id": "70",
+        "title": "8 secrets of success",
+        "speaker": "Richard St. John",
+        "chunk": "Title: 8 secrets of success. This is really a two-hour presentation I give to high school students, cut down to three minutes. And it all started one day on a plane, on my way to TED, seven years ago....",
+        "score": 0.541788161
+      },
+      {
+        "talk_id": "70",
+        "title": "8 secrets of success",
+        "speaker": "Richard St. John",
+        "chunk": "Title: 8 secrets of success. This is really a two-hour presentation I give to high school students, cut down to three minutes. And it all started one day on a plane, on my way to TED, seven years ago....",
+        "score": 0.541664183
+      },
+      {
+        "talk_id": "2665",
+        "title": "If a story moves you, act on it",
+        "speaker": "Sisonke Msimang",
+        "chunk": "Title: If a story moves you, act on it. So earlier this year, I was informed that I would be doing a TED Talk. So I was excited, then I panicked, then I was excited, then I panicked, and in between th...",
+        "score": 0.540407181
+      },
+      {
+        "talk_id": "1355",
+        "title": "Everyday leadership",
+        "speaker": "Drew Dudley",
+        "chunk": "Title: Everyday leadership. I wanted to just start by asking everyone a question: How many of you are completely comfortable with calling yourselves a leader? I've asked that question all across the c...",
+        "score": 0.532564163
+      },
+      {
+        "talk_id": "1044",
+        "title": "How to succeed? Get more sleep",
+        "speaker": "Arianna Huffington",
+        "chunk": ". So a high IQ does not mean that you're a good leader, because the essence of leadership is being able to see the iceberg before it hits the Titanic. (Laughter) And we've had far too many icebergs hi...",
+        "score": 0.531944275
+      },
+      {
+        "talk_id": "814",
+        "title": "How to start a movement",
+        "speaker": "Derek Sivers",
+        "chunk": "Title: How to start a movement. Ladies and gentlemen, at TED we talk a lot about leadership and how to make a movement. So let's watch a movement happen, start to finish, in under three minutes and di...",
+        "score": 0.529005051
+      },
+      {
+        "talk_id": "1355",
+        "title": "Everyday leadership",
+        "speaker": "Drew Dudley",
+        "chunk": ". And if we can understand leadership like that, I think if we can redefine leadership like that, I think we can change everything. And it's a simple idea, but I don't think it's a small one. I want t...",
+        "score": 0.527925491
+      },
+      {
+        "talk_id": "848",
+        "title": "How great leaders inspire action",
+        "speaker": "Simon Sinek",
+        "chunk": ". By the way, he gave the \"I have a dream\" speech, not the \"I have a plan\" speech. (Laughter) Listen to politicians now, with their comprehensive 12-point plans. They're not inspiring anybody. Because...",
+        "score": 0.516830444
+      }
+    ],
+    "scores": {
+      "faithfulness": 1,
+      "relevance": 1,
+      "completeness": 1,
+      "context_quality": 5,
+      "overall_score": 1,
+      "reasoning": "No RAG system response was provided, so the answer is absent and cannot be grounded in the retrieved context (faithfulness=1), does not address the question (relevance=1), and fails to meet the task requirements (completeness=1). The retrieved chunks themselves are relevant and include a leadership-focused talk (Roselinde Torres), so context quality is high (5). Overall score is 1 due to the missing response."
+    },
+    "avg_similarity": 0.5368103146000001
+  },
+  {
+    "question": "Find a TED talk that discusses overcoming fear or anxiety. Provide the title and speaker.",
+    "category": "Precise Fact Retrieval",
+    "k_value": 12,
+    "response": "\"The science of stage fright (and how to overcome it)\" — Mikael Cho.\n\nI know this from the transcript: it opens, \"Palms sweaty, heart racing, stomach in knots... you're speaking in public, a fate some deem worse than death,\" and explicitly says \"you have to try and overcome it\" and \"To start, understand what stage fright is,\" showing the talk discusses overcoming fear of public speaking.",
+    "context_chunks": [
+      {
+        "talk_id": "1962",
+        "title": "It's TED, the Musical",
+        "speaker": "The TED Staff",
+        "chunk": ". Understand me still. ♪ ♪ I'm too nervous to give this TED Talk. ♪ All: ♪ Don't give up. Rehearse. You're good. ♪ ♪ We'll edit out the mistakes that you make. ♪ ♪ Give your talk. ♪ DH: ♪ I will be bi...",
+        "score": 0.538779259
+      },
+      {
+        "talk_id": "2746",
+        "title": "The science of stage fright (and how to overcome it)",
+        "speaker": "Mikael Cho",
+        "chunk": "Title: The science of stage fright (and how to overcome it). Palms sweaty, heart racing, stomach in knots. You can't cry for help. Not only is your throat too tight to breathe, but it'd be so embarras...",
+        "score": 0.517548561
+      },
+      {
+        "talk_id": "2665",
+        "title": "If a story moves you, act on it",
+        "speaker": "Sisonke Msimang",
+        "chunk": "Title: If a story moves you, act on it. So earlier this year, I was informed that I would be doing a TED Talk. So I was excited, then I panicked, then I was excited, then I panicked, and in between th...",
+        "score": 0.515610695
+      },
+      {
+        "talk_id": "2485",
+        "title": "TED's secret to great public speaking",
+        "speaker": "Chris Anderson",
+        "chunk": "Title: TED's secret to great public speaking. Some people think that there's a TED Talk formula: \"Give a talk on a round, red rug.\" \"Share a childhood story.\" \"Divulge a personal secret.\" \"End with an...",
+        "score": 0.508173943
+      },
+      {
+        "talk_id": "2809",
+        "title": "Don't feel sorry for refugees -- believe in them",
+        "speaker": "Luma Mufleh",
+        "chunk": "Title: Don't feel sorry for refugees -- believe in them. I remember when I first found out I was going to speak at a TED conference. I ran across the hall to one of my classrooms to inform my students...",
+        "score": 0.501777649
+      },
+      {
+        "talk_id": "1391",
+        "title": "Listening to shame",
+        "speaker": "Brené Brown",
+        "chunk": "Title: Listening to shame. I'm going to tell you a little bit about my TEDxHouston Talk. I woke up the morning after I gave that talk with the worst vulnerability hangover of my life. And I actually d...",
+        "score": 0.498707771
+      },
+      {
+        "talk_id": "3269",
+        "title": "The revolutionary power of diverse thought",
+        "speaker": "Elif Shafak",
+        "chunk": ". We're also interested in our own silences. I have always been very vocal about and written extensively about minority rights, women's rights, LGBT rights. But as I was thinking about this TED Talk, ...",
+        "score": 0.49588874
+      },
+      {
+        "talk_id": "1542",
+        "title": "Fighting with nonviolence",
+        "speaker": "Scilla Elworthy",
+        "chunk": ". But she told the students to sit down. And she walked forward with such calm and such clarity and such total lack of fear that she could walk right up to the first gun, put her hand on it and lower ...",
+        "score": 0.495170623
+      },
+      {
+        "talk_id": "1391",
+        "title": "Listening to shame",
+        "speaker": "Brené Brown",
+        "chunk": ". I define vulnerability as emotional risk, exposure, uncertainty. It fuels our daily lives. And I've come to the belief — this is my 12th year doing this research — that vulnerability is our most acc...",
+        "score": 0.494405746
+      },
+      {
+        "talk_id": "2485",
+        "title": "TED's secret to great public speaking",
+        "speaker": "Chris Anderson",
+        "chunk": ". And even though these speakers and their topics all seem completely different, they actually do have one key common ingredient. And it's this: Your number one task as a speaker is to transfer into y...",
+        "score": 0.492612839
+      },
+      {
+        "talk_id": "480",
+        "title": "3 ways good design makes you happy",
+        "speaker": "Don Norman",
+        "chunk": ". It's round, it's neat. The controls work wonderfully. So that's my new life; it's all about fun. I really have the feeling that pleasant things work better, and that never made any sense to me until...",
+        "score": 0.492136955
+      },
+      {
+        "talk_id": "1962",
+        "title": "It's TED, the Musical",
+        "speaker": "The TED Staff",
+        "chunk": ". ♪ SC 2: ♪ Don't ever try to sell something ♪ ♪ from up on that stage ♪ ♪ or we won't post your talk online. ♪ All: ♪ Somehow we'll make a TED Talk out of you. ♪ (Music) SC 1: Ready to practice one m...",
+        "score": 0.489497185
+      }
+    ],
+    "scores": {
+      "faithfulness": 5,
+      "relevance": 5,
+      "completeness": 5,
+      "context_quality": 5,
+      "overall_score": 5,
+      "reasoning": "The response correctly cites a talk present in the retrieved context that explicitly discusses stage fright and overcoming it. It provides the required title and speaker, and the retrieved transcript excerpt directly supports the claim. All criteria are met."
+    },
+    "avg_similarity": 0.5033591638333333
+  },
+  {
+    "question": "Find a TED talk about the human brain. Provide the title and speaker.",
+    "category": "Precise Fact Retrieval",
+    "k_value": 12,
+    "response": "Title: \"3 clues to understanding your brain\"\nSpeaker: Vilayanur Ramachandran\n\nSupport from the provided transcript: it begins, \"Title: 3 clues to understanding your brain. Well, as Chris pointed out, I study the human brain...\"",
+    "context_chunks": [
+      {
+        "talk_id": "2485",
+        "title": "TED's secret to great public speaking",
+        "speaker": "Chris Anderson",
+        "chunk": ". And even though these speakers and their topics all seem completely different, they actually do have one key common ingredient. And it's this: Your number one task as a speaker is to transfer into y...",
+        "score": 0.572947502
+      },
+      {
+        "talk_id": "125",
+        "title": "How brain science will change computing",
+        "speaker": "Jeff Hawkins",
+        "chunk": "Title: How brain science will change computing. I do two things: I design mobile computers and I study brains. Today's talk is about brains and — (Audience member cheers) Yay! I have a brain fan out t...",
+        "score": 0.562393188
+      },
+      {
+        "talk_id": "125",
+        "title": "How brain science will change computing",
+        "speaker": "Jeff Hawkins",
+        "chunk": "Title: How brain science will change computing. I do two things: I design mobile computers and I study brains. Today's talk is about brains and — (Audience member cheers) Yay! I have a brain fan out t...",
+        "score": 0.562267303
+      },
+      {
+        "talk_id": "2172",
+        "title": "Brain-to-brain communication has arrived. How we did it",
+        "speaker": "Miguel Nicolelis",
+        "chunk": ". And I forgot to mention, because of time, that just three weeks ago, a European group just demonstrated the first man-to-man brain-to-brain connection. BG: And how does that play? MN: There was one ...",
+        "score": 0.552374899
+      },
+      {
+        "talk_id": "184",
+        "title": "3 clues to understanding your brain",
+        "speaker": "Vilayanur Ramachandran",
+        "chunk": "Title: 3 clues to understanding your brain. Well, as Chris pointed out, I study the human brain, the functions and structure of the human brain. And I just want you to think for a minute about what th...",
+        "score": 0.549900115
+      },
+      {
+        "talk_id": "184",
+        "title": "3 clues to understanding your brain",
+        "speaker": "Vilayanur Ramachandran",
+        "chunk": "Title: 3 clues to understanding your brain. Well, as Chris pointed out, I study the human brain, the functions and structure of the human brain. And I just want you to think for a minute about what th...",
+        "score": 0.549667358
+      },
+      {
+        "talk_id": "724",
+        "title": "The neurons that shaped civilization",
+        "speaker": "Vilayanur Ramachandran",
+        "chunk": "Title: The neurons that shaped civilization. I'd like to talk to you today about the human brain, which is what we do research on at the University of California. Just think about this problem for a s...",
+        "score": 0.545171797
+      },
+      {
+        "talk_id": "630",
+        "title": "How we read each other's minds",
+        "speaker": "Rebecca Saxe",
+        "chunk": ". The whole research program here of studying the distinctive parts of the human brain is brand new. Until recently, what we knew about the brain were the things that any other animal's brain could do...",
+        "score": 0.522829056
+      },
+      {
+        "talk_id": "2077",
+        "title": "A neural portrait of the human mind",
+        "speaker": "Nancy Kanwisher",
+        "chunk": "Title: A neural portrait of the human mind. Today I want to tell you about a project being carried out by scientists all over the world to paint a neural portrait of the human mind. And the central id...",
+        "score": 0.520401
+      },
+      {
+        "talk_id": "1267",
+        "title": "A map of the brain",
+        "speaker": "Allan Jones",
+        "chunk": "Title: A map of the brain. Humans have long held a fascination for the human brain. We chart it, we've described it, we've drawn it, we've mapped it. Now just like the physical maps of our world that ...",
+        "score": 0.511967659
+      },
+      {
+        "talk_id": "630",
+        "title": "How we read each other's minds",
+        "speaker": "Rebecca Saxe",
+        "chunk": ". And yet, you put them together in a particular network, and what you get is the capacity to write Romeo and Juliet. Or to say, as Alan Greenspan did, \"I know you think you understand what you though...",
+        "score": 0.509477556
+      },
+      {
+        "talk_id": "211",
+        "title": "TED's nonprofit transition",
+        "speaker": "Chris Anderson",
+        "chunk": ". To understand even something as important to us as happiness, you kind of have to branch off in all these different directions, and there's nowhere that I've discovered — other than TED — where you ...",
+        "score": 0.507902145
+      }
+    ],
+    "scores": {
+      "faithfulness": 3,
+      "relevance": 3,
+      "completeness": 3,
+      "context_quality": 3,
+      "overall_score": 3,
+      "reasoning": "Failed to parse judge response"
+    },
+    "avg_similarity": 0.5389416315000001
+  },
+  {
+    "question": "Which TED talks focus on education or learning? Return a list of exactly 3 talk titles.",
+    "category": "Multi-Result Topic Listing",
+    "k_value": 12,
+    "response": "- Bring on the learning revolution!\n  - Evidence: the talk title itself and the speaker opening \"I was here four years ago... So, this whole event has been an elaborate build-up to me doing another one for you,\" indicating the focus on education and learning.\n\n- How web video powers global innovation\n  - Evidence: the transcript asks, \"Is it possible to imagine a similar process to this, happening to global education overall?\" and states \"Schools can't be silos. We can't stop learning at age 21,\" showing the talk addresses learning and education.\n\n- The birth of the open-source learning revolution\n  - Evidence: the speaker says \"you can really view this as a call to action. Connexions and open content is all about sharing knowledge... invite each and every one of you to contribute ... because I think together we can truly change the landscape of education and educational publishing.\"",
+    "context_chunks": [
+      {
+        "talk_id": "1315",
+        "title": "1,000 TED Talks in six words",
+        "speaker": "Sebastian Wernicke",
+        "chunk": ". But it's actually not, because there's an example by statistics professor Hans Rosling. I guess many of you have seen one or more of his talks. He's got eight talks online, and those can basically b...",
+        "score": 0.521003783
+      },
+      {
+        "talk_id": "2485",
+        "title": "TED's secret to great public speaking",
+        "speaker": "Chris Anderson",
+        "chunk": "Title: TED's secret to great public speaking. Some people think that there's a TED Talk formula: \"Give a talk on a round, red rug.\" \"Share a childhood story.\" \"Divulge a personal secret.\" \"End with an...",
+        "score": 0.508068144
+      },
+      {
+        "talk_id": "865",
+        "title": "Bring on the learning revolution!",
+        "speaker": "Sir Ken Robinson",
+        "chunk": "Title: Bring on the learning revolution!. I was here four years ago, and I remember, at the time, that the talks weren't put online. I think they were given to TEDsters in a box, a box set of DVDs, wh...",
+        "score": 0.505247176
+      },
+      {
+        "talk_id": "955",
+        "title": "How web video powers global innovation",
+        "speaker": "Chris Anderson",
+        "chunk": ". I mean, today, one person speaking can be seen by millions, shedding bright light on potent ideas, creating intense desire for learning and to respond — and in his case, intense desire to laugh. For...",
+        "score": 0.503875792
+      },
+      {
+        "talk_id": "955",
+        "title": "How web video powers global innovation",
+        "speaker": "Chris Anderson",
+        "chunk": ". And so, as we've thought about this, you know, it's become clear to us what the next stage of TED's evolution has to be. TEDTalks can't be a one-way process, one-to-many. Our future is many-to-many....",
+        "score": 0.501098692
+      },
+      {
+        "talk_id": "2264",
+        "title": "Gorgeous portraits of the world's vanishing people",
+        "speaker": "Jimmy Nelson",
+        "chunk": ". You must know about it.\" And I said, \"I've been in a teepee and in a yurt for the last five years. How do I know who Ted is? Introduce me to him.\" Anyway, to cut a long story short, he said, \"We hav...",
+        "score": 0.49261862
+      },
+      {
+        "talk_id": "846",
+        "title": "Lies, damned lies and statistics (about TEDTalks)",
+        "speaker": "Sebastian Wernicke",
+        "chunk": ". Now, with the topic: There's a whole range of topics you can choose, but you should choose wisely, because your topic strongly correlates with how users will react to your talk. Now, to make this mo...",
+        "score": 0.484640151
+      },
+      {
+        "talk_id": "1315",
+        "title": "1,000 TED Talks in six words",
+        "speaker": "Sebastian Wernicke",
+        "chunk": "Title: 1,000 TED Talks in six words. There's currently over a thousand TED Talks on the TED website. And I guess many of you here think that this is quite fantastic, except for me, I don't agree with ...",
+        "score": 0.477687865
+      },
+      {
+        "talk_id": "846",
+        "title": "Lies, damned lies and statistics (about TEDTalks)",
+        "speaker": "Sebastian Wernicke",
+        "chunk": "Title: Lies, damned lies and statistics (about TEDTalks). If you go on the TED website, you can currently find there over a full week of TEDTalk videos, over 1.3 million words of transcripts and milli...",
+        "score": 0.476848632
+      },
+      {
+        "talk_id": "25",
+        "title": "The birth of the open-source learning revolution",
+        "speaker": "Richard Baraniuk",
+        "chunk": ". And you can think of TED as a potential lens. So I'd just like to end by saying: you can really view this as a call to action. Connexions and open content is all about sharing knowledge. All of you ...",
+        "score": 0.46569255
+      },
+      {
+        "talk_id": "25",
+        "title": "The birth of the open-source learning revolution",
+        "speaker": "Richard Baraniuk",
+        "chunk": ". And you can think of TED as a potential lens. So I'd just like to end by saying: you can really view this as a call to action. Connexions and open content is all about sharing knowledge. All of you ...",
+        "score": 0.46550566
+      },
+      {
+        "talk_id": "949",
+        "title": "The child-driven education",
+        "speaker": "Sugata Mitra",
+        "chunk": ". 200 of them volunteered immediately. (Laughter) The deal was that they would give me one hour of broadband time, sitting in their homes, one day in a week. So they did that, and over the last two ye...",
+        "score": 0.462791473
+      }
+    ],
+    "scores": {
+      "faithfulness": 3,
+      "relevance": 3,
+      "completeness": 3,
+      "context_quality": 3,
+      "overall_score": 3,
+      "reasoning": "Failed to parse judge response"
+    },
+    "avg_similarity": 0.4887565448333333
+  },
+  {
+    "question": "List 3 TED talks about technology or innovation.",
+    "category": "Multi-Result Topic Listing",
+    "k_value": 12,
+    "response": "- \"How web video powers global innovation\" — Chris Anderson. The title itself identifies the topic (web video and innovation), and the transcript opens discussing \"nine billion humans\" and \"a phenomenon that I think any organization or individual can tap into,\" showing an innovation focus.\n\n- \"The anthropology of mobile phones\" — Jan Chipchase. The transcript says \"With another three billion people connected, they want to be part of the conversation,\" and discusses how connection will \"innovate in ways that we cannot anticipate,\" indicating a focus on mobile-technology-driven innovation.\n\n- \"The thinking behind 50x15\" — Hector Ruiz. Ruiz explicitly frames technology as central: \"technology played a big role in that\" and calls it \"a tremendous enabler; a very powerful tool to help address some of these challenges,\" which identifies this talk as about technology and its innovative potential.",
+    "context_chunks": [
+      {
+        "talk_id": "955",
+        "title": "How web video powers global innovation",
+        "speaker": "Chris Anderson",
+        "chunk": "Title: How web video powers global innovation. If nothing else, at least I've discovered what it is we put our speakers through: sweaty palms, sleepless nights, a wholly unnatural fear of clocks. I me...",
+        "score": 0.530906677
+      },
+      {
+        "talk_id": "1378",
+        "title": "We need to talk about an injustice",
+        "speaker": "Bryan Stevenson",
+        "chunk": ". We love innovation. We love technology. We love creativity. We love entertainment. But ultimately, those realities are shadowed by suffering, abuse, degradation, marginalization. And for me, it beco...",
+        "score": 0.520551741
+      },
+      {
+        "talk_id": "1567",
+        "title": "Demand a fair trade cell phone",
+        "speaker": "Bandi Mbubi",
+        "chunk": ". TED has always celebrated what technology can do for us, technology in its finished form. It is time to be asking questions about technology. Where does it come from? Who makes it? And for what? Her...",
+        "score": 0.508136749
+      },
+      {
+        "talk_id": "2485",
+        "title": "TED's secret to great public speaking",
+        "speaker": "Chris Anderson",
+        "chunk": "Title: TED's secret to great public speaking. Some people think that there's a TED Talk formula: \"Give a talk on a round, red rug.\" \"Share a childhood story.\" \"Divulge a personal secret.\" \"End with an...",
+        "score": 0.507959366
+      },
+      {
+        "talk_id": "190",
+        "title": "The anthropology of mobile phones",
+        "speaker": "Jan Chipchase",
+        "chunk": ". And it will innovate in ways that we cannot anticipate. In ways that, despite our resources, they can do it better than us. That's my feeling. And if we're smart, we'll look at this stuff that's goi...",
+        "score": 0.507047653
+      },
+      {
+        "talk_id": "190",
+        "title": "The anthropology of mobile phones",
+        "speaker": "Jan Chipchase",
+        "chunk": ". And it will innovate in ways that we cannot anticipate. In ways that, despite our resources, they can do it better than us. That's my feeling. And if we're smart, we'll look at this stuff that's goi...",
+        "score": 0.506999969
+      },
+      {
+        "talk_id": "14439",
+        "title": "How we need to remake the internet",
+        "speaker": "Jaron Lanier",
+        "chunk": "Title: How we need to remake the internet. Back in the 1980s, actually, I gave my first talk at TED, and I brought some of the very, very first public demonstrations of virtual reality ever to the TED...",
+        "score": 0.503538132
+      },
+      {
+        "talk_id": "846",
+        "title": "Lies, damned lies and statistics (about TEDTalks)",
+        "speaker": "Sebastian Wernicke",
+        "chunk": ". Now, with the topic: There's a whole range of topics you can choose, but you should choose wisely, because your topic strongly correlates with how users will react to your talk. Now, to make this mo...",
+        "score": 0.491380692
+      },
+      {
+        "talk_id": "441",
+        "title": "The extraordinary power of ordinary people",
+        "speaker": "Sherwin Nuland",
+        "chunk": "Title: The extraordinary power of ordinary people. You know, I am so bad at tech that my daughter — who is now 41 — when she was five, was overheard by me to say to a friend of hers, If it doesn't ble...",
+        "score": 0.491201401
+      },
+      {
+        "talk_id": "846",
+        "title": "Lies, damned lies and statistics (about TEDTalks)",
+        "speaker": "Sebastian Wernicke",
+        "chunk": ". And the more technical topics, such as architecture, materials and, strangely enough, men, those are not good topics to talk about. How should you deliver your talk? TED is famous for keeping a very...",
+        "score": 0.484727859
+      },
+      {
+        "talk_id": "1378",
+        "title": "We need to talk about an injustice",
+        "speaker": "Bryan Stevenson",
+        "chunk": ". Innovation, creativity, development comes not from the ideas in our mind alone. They come from the ideas in our mind that are also fueled by some conviction in our heart. And it's that mind-heart co...",
+        "score": 0.481683761
+      },
+      {
+        "talk_id": "255",
+        "title": "The thinking behind 50x15",
+        "speaker": "Hector Ruiz",
+        "chunk": "Title: The thinking behind 50x15. You know, one of the things that I'd like to say upfront is that I'm really here by accident. And what I mean — not at TED — that I'm — at this point in my life, trul...",
+        "score": 0.479553223
+      }
+    ],
+    "scores": {
+      "faithfulness": 3,
+      "relevance": 3,
+      "completeness": 3,
+      "context_quality": 3,
+      "overall_score": 3,
+      "reasoning": "Failed to parse judge response"
+    },
+    "avg_similarity": 0.5011406019166667
+  },
+  {
+    "question": "Find a TED talk where the speaker talks about technology improving people's lives. Provide the title and a short summary of the key idea.",
+    "category": "Key Idea Summary",
+    "k_value": 12,
+    "response": "Title: \"The thinking behind 50x15\" (Hector Ruiz)\n\nShort summary of the key idea (based on the provided TED transcript):\nHector Ruiz argues that technology can be used to create more life-changing \"accidents\" — serendipitous opportunities — especially in service of children and education. As he says in the transcript, \"technology played a big role\" in how he ended up where he is, and he wants \"to use technology to make those accidents happen often,\" because \"technology is a tremendous enabler; a very powerful tool to help address some of these challenges.\"",
+    "context_chunks": [
+      {
+        "talk_id": "1162",
+        "title": "We need a \"moral operating system\"",
+        "speaker": "Damon Horowitz",
+        "chunk": ". \"Did I evaluate what would be the highest pleasure like Mill would? Or like Kant, did I use reason to figure out what was intrinsically right?\" Think about it. Really bring it to mind. This is impor...",
+        "score": 0.568338394
+      },
+      {
+        "talk_id": "2485",
+        "title": "TED's secret to great public speaking",
+        "speaker": "Chris Anderson",
+        "chunk": "Title: TED's secret to great public speaking. Some people think that there's a TED Talk formula: \"Give a talk on a round, red rug.\" \"Share a childhood story.\" \"Divulge a personal secret.\" \"End with an...",
+        "score": 0.55586338
+      },
+      {
+        "talk_id": "846",
+        "title": "Lies, damned lies and statistics (about TEDTalks)",
+        "speaker": "Sebastian Wernicke",
+        "chunk": ". Now, with the topic: There's a whole range of topics you can choose, but you should choose wisely, because your topic strongly correlates with how users will react to your talk. Now, to make this mo...",
+        "score": 0.535277367
+      },
+      {
+        "talk_id": "14439",
+        "title": "How we need to remake the internet",
+        "speaker": "Jaron Lanier",
+        "chunk": "Title: How we need to remake the internet. Back in the 1980s, actually, I gave my first talk at TED, and I brought some of the very, very first public demonstrations of virtual reality ever to the TED...",
+        "score": 0.53486824
+      },
+      {
+        "talk_id": "1378",
+        "title": "We need to talk about an injustice",
+        "speaker": "Bryan Stevenson",
+        "chunk": ". We love innovation. We love technology. We love creativity. We love entertainment. But ultimately, those realities are shadowed by suffering, abuse, degradation, marginalization. And for me, it beco...",
+        "score": 0.530267775
+      },
+      {
+        "talk_id": "1315",
+        "title": "1,000 TED Talks in six words",
+        "speaker": "Sebastian Wernicke",
+        "chunk": ". But it's actually not, because there's an example by statistics professor Hans Rosling. I guess many of you have seen one or more of his talks. He's got eight talks online, and those can basically b...",
+        "score": 0.527374268
+      },
+      {
+        "talk_id": "255",
+        "title": "The thinking behind 50x15",
+        "speaker": "Hector Ruiz",
+        "chunk": "Title: The thinking behind 50x15. You know, one of the things that I'd like to say upfront is that I'm really here by accident. And what I mean — not at TED — that I'm — at this point in my life, trul...",
+        "score": 0.524803162
+      },
+      {
+        "talk_id": "1315",
+        "title": "1,000 TED Talks in six words",
+        "speaker": "Sebastian Wernicke",
+        "chunk": ". And I also encountered a project called Six-Word Memoirs where people were asked, take your whole life and please sum this up into six words, such as these here: \"Found true love, married someone el...",
+        "score": 0.52098459
+      },
+      {
+        "talk_id": "846",
+        "title": "Lies, damned lies and statistics (about TEDTalks)",
+        "speaker": "Sebastian Wernicke",
+        "chunk": "Title: Lies, damned lies and statistics (about TEDTalks). If you go on the TED website, you can currently find there over a full week of TEDTalk videos, over 1.3 million words of transcripts and milli...",
+        "score": 0.520701408
+      },
+      {
+        "talk_id": "312",
+        "title": "The new era of positive psychology",
+        "speaker": "Martin Seligman",
+        "chunk": ". So, Chris said that the last speaker had a chance to try to integrate what he heard, and so this was amazing for me. I've never been in a gathering like this. I've never seen speakers stretch beyond...",
+        "score": 0.520441055
+      },
+      {
+        "talk_id": "1315",
+        "title": "1,000 TED Talks in six words",
+        "speaker": "Sebastian Wernicke",
+        "chunk": "Title: 1,000 TED Talks in six words. There's currently over a thousand TED Talks on the TED website. And I guess many of you here think that this is quite fantastic, except for me, I don't agree with ...",
+        "score": 0.51859
+      },
+      {
+        "talk_id": "441",
+        "title": "The extraordinary power of ordinary people",
+        "speaker": "Sherwin Nuland",
+        "chunk": "Title: The extraordinary power of ordinary people. You know, I am so bad at tech that my daughter — who is now 41 — when she was five, was overheard by me to say to a friend of hers, If it doesn't ble...",
+        "score": 0.515821457
+      }
+    ],
+    "scores": {
+      "faithfulness": 3,
+      "relevance": 3,
+      "completeness": 3,
+      "context_quality": 3,
+      "overall_score": 3,
+      "reasoning": "Failed to parse judge response"
+    },
+    "avg_similarity": 0.5311109246666667
+  },
+  {
+    "question": "Find a TED talk about creativity. Provide the title and summarize the speaker's main argument.",
+    "category": "Key Idea Summary",
+    "k_value": 12,
+    "response": "Title: The era of open innovation — Charles Leadbeater\n\nSummary of the speaker’s main argument (from the provided transcript):\nLeadbeater argues that the traditional view of creativity — that it lives in a few “special people” working in special places and then flows down a pipeline to passive consumers — is wrong. He says this model (“special people, special places… think up special ideas, then you have a pipeline that takes the ideas down to the waiting consumers, who are passive”) should be challenged. Implicitly, he calls for rethinking policy and practice so creativity is not confined to elites or isolated labs but is opened up more broadly (i.e., moving beyond simply “more special people, more special places”).",
+    "context_chunks": [
+      {
+        "talk_id": "250",
+        "title": "Where does creativity hide?",
+        "speaker": "Amy Tan",
+        "chunk": "Title: Where does creativity hide?. The Value of Nothing: Out of Nothing Comes Something. That was an essay I wrote when I was 11 years old and I got a B+. (Laughter) What I'm going to talk about: not...",
+        "score": 0.598209441
+      },
+      {
+        "talk_id": "2485",
+        "title": "TED's secret to great public speaking",
+        "speaker": "Chris Anderson",
+        "chunk": ". Here are just a few examples shared from the TED stage. Sir Ken Robinson — creativity is key to our kids' future. (Video) Sir Ken Robinson: My contention is that creativity now is as important in ed...",
+        "score": 0.582811415
+      },
+      {
+        "talk_id": "1449",
+        "title": "How to build your creative confidence",
+        "speaker": "David Kelley",
+        "chunk": ". We see people quit what they're doing and go in new directions. We see them come up with more interesting — and just more — ideas, so they can choose from better ideas. And they just make better dec...",
+        "score": 0.57233429
+      },
+      {
+        "talk_id": "2485",
+        "title": "TED's secret to great public speaking",
+        "speaker": "Chris Anderson",
+        "chunk": "Title: TED's secret to great public speaking. Some people think that there's a TED Talk formula: \"Give a talk on a round, red rug.\" \"Share a childhood story.\" \"Divulge a personal secret.\" \"End with an...",
+        "score": 0.570179939
+      },
+      {
+        "talk_id": "407",
+        "title": "Do the green thing",
+        "speaker": "Andy Hobsbawm",
+        "chunk": "Title: Do the green thing. Great creativity. In times of need, we need great creativity. Discuss. Great creativity is astonishingly, absurdly, rationally, irrationally powerful. Great creativity can s...",
+        "score": 0.559959412
+      },
+      {
+        "talk_id": "70",
+        "title": "8 secrets of success",
+        "speaker": "Richard St. John",
+        "chunk": ". And there's no magic to creativity in coming up with ideas — it's just doing some very simple things. And I give lots of evidence. Persist! Joe Kraus says, \"Persistence is the number one reason for ...",
+        "score": 0.553134918
+      },
+      {
+        "talk_id": "70",
+        "title": "8 secrets of success",
+        "speaker": "Richard St. John",
+        "chunk": ". And there's no magic to creativity in coming up with ideas — it's just doing some very simple things. And I give lots of evidence. Persist! Joe Kraus says, \"Persistence is the number one reason for ...",
+        "score": 0.55304718
+      },
+      {
+        "talk_id": "32",
+        "title": "Art with wire, sugar, chocolate and string",
+        "speaker": "Vik Muniz",
+        "chunk": "Title: Art with wire, sugar, chocolate and string. I was asked to come here and speak about creation. And I only have 15 minutes, and I see they're counting already. And I can — in 15 minutes, I think...",
+        "score": 0.539070129
+      },
+      {
+        "talk_id": "32",
+        "title": "Art with wire, sugar, chocolate and string",
+        "speaker": "Vik Muniz",
+        "chunk": "Title: Art with wire, sugar, chocolate and string. I was asked to come here and speak about creation. And I only have 15 minutes, and I see they're counting already. And I can — in 15 minutes, I think...",
+        "score": 0.538911819
+      },
+      {
+        "talk_id": "63",
+        "title": "The era of open innovation",
+        "speaker": "Charles Leadbeater",
+        "chunk": ". So this is a huge challenge to the way we think creativity comes about. The traditional view, still enshrined in much of the way that we think about creativity — in organizations, in government — is...",
+        "score": 0.531557083
+      },
+      {
+        "talk_id": "63",
+        "title": "The era of open innovation",
+        "speaker": "Charles Leadbeater",
+        "chunk": ". So this is a huge challenge to the way we think creativity comes about. The traditional view, still enshrined in much of the way that we think about creativity — in organizations, in government — is...",
+        "score": 0.531372
+      },
+      {
+        "talk_id": "846",
+        "title": "Lies, damned lies and statistics (about TEDTalks)",
+        "speaker": "Sebastian Wernicke",
+        "chunk": ". Slides are okay, though you might consider going for props. And now the most important thing, that is the mood onstage. Color plays a very important role. Color closely correlates with the ratings t...",
+        "score": 0.530652046
+      }
+    ],
+    "scores": {
+      "faithfulness": 3,
+      "relevance": 3,
+      "completeness": 3,
+      "context_quality": 3,
+      "overall_score": 3,
+      "reasoning": "Failed to parse judge response"
+    },
+    "avg_similarity": 0.555103306
+  },
+  {
+    "question": "I'm looking for a TED talk about climate change and what individuals can do in their daily lives. Which talk would you recommend?",
+    "category": "Recommendation with Justification",
+    "k_value": 12,
+    "response": "I recommend Katharine Hayhoe's talk, \"The most important thing you can do to fight climate change: talk about it.\" In the transcript she names concrete everyday actions people can take — for example: \"There are simple solutions that save us money and reduce our carbon footprint at the same time. Yes, light bulbs. I love my plug-in car. I'd like some solar shingles.\" She also lists lifestyle choices like \"eating local, eating lower down the food chain and reducing food waste,\" and even small household ideas (a switch by the front door to turn off everything except the fridge). Hayhoe pairs those concrete daily actions with the broader point that talking about climate helps speed collective progress, so her talk directly addresses both personal choices and how individuals can make a bigger difference. \n\n(If you want other options from the provided list: John Doerr's \"Salvation (and profit) in greentech\" suggests getting carbon neutral and using your influence to push organizations to go green; Alice Bows-Larkin's \"Climate change is happening. Here's how we adapt\" discusses how our personal choices affect future climate and adaptation needs.)",
+    "context_chunks": [
+      {
+        "talk_id": "29968",
+        "title": "The most important thing you can do to fight climate change: talk about it",
+        "speaker": "Katharine Hayhoe",
+        "chunk": ". But in reality, that boulder is already at the top of the hill. And it's got hundreds of millions of hands, maybe even billions on it, pushing it down. It just isn't going fast enough. So how do we ...",
+        "score": 0.566787779
+      },
+      {
+        "talk_id": "60080",
+        "title": "How we could change the planet's climate future",
+        "speaker": "David Wallace-Wells",
+        "chunk": "Title: How we could change the planet's climate future. I'm here to talk about climate change, but I'm not really an environmentalist. In fact, I've never really thought of myself as a nature person. ...",
+        "score": 0.540448248
+      },
+      {
+        "talk_id": "4463",
+        "title": "How to transform apocalypse fatigue into action on global warming",
+        "speaker": "Per Espen Stoknes",
+        "chunk": ". Now, that's massive. And in Oslo, we can see how enthusiastic EV owners go and tell their electric stories to friends and neighbors and bring them along. So we come full circle from story back to so...",
+        "score": 0.53656584
+      },
+      {
+        "talk_id": "192",
+        "title": "A critical look at geoengineering against climate change",
+        "speaker": "David Keith",
+        "chunk": ". What I'm going to talk to you about tonight is stuff we might do if we did nothing. And it's this stuff in the middle here, which is what you do if you don't stop the emissions quickly enough. And y...",
+        "score": 0.534202576
+      },
+      {
+        "talk_id": "192",
+        "title": "A critical look at geoengineering against climate change",
+        "speaker": "David Keith",
+        "chunk": ". What I'm going to talk to you about tonight is stuff we might do if we did nothing. And it's this stuff in the middle here, which is what you do if you don't stop the emissions quickly enough. And y...",
+        "score": 0.533905089
+      },
+      {
+        "talk_id": "32560",
+        "title": "The disarming case to act right now on climate change",
+        "speaker": "Greta Thunberg",
+        "chunk": "Title: The disarming case to act right now on climate change. When I was about eight years old, I first heard about something called climate change or global warming. Apparently, that was something hu...",
+        "score": 0.531816542
+      },
+      {
+        "talk_id": "128",
+        "title": "Salvation (and profit) in greentech",
+        "speaker": "John Doerr",
+        "chunk": ". Everyone here cares about changing the world and has made a difference in that one way or another. So, our call to action — my call to you — is for you to make going green your next big thing, your ...",
+        "score": 0.531272948
+      },
+      {
+        "talk_id": "128",
+        "title": "Salvation (and profit) in greentech",
+        "speaker": "John Doerr",
+        "chunk": ". Everyone here cares about changing the world and has made a difference in that one way or another. So, our call to action — my call to you — is for you to make going green your next big thing, your ...",
+        "score": 0.530986845
+      },
+      {
+        "talk_id": "2339",
+        "title": "Climate change is happening. Here's how we adapt",
+        "speaker": "Alice Bows-Larkin",
+        "chunk": "Title: Climate change is happening. Here's how we adapt. Over our lifetimes, we've all contributed to climate change. Actions, choices and behaviors will have led to an increase in greenhouse gas emis...",
+        "score": 0.528507292
+      },
+      {
+        "talk_id": "29968",
+        "title": "The most important thing you can do to fight climate change: talk about it",
+        "speaker": "Katharine Hayhoe",
+        "chunk": ". (Laughter) There's simple solutions that save us money and reduce our carbon footprint at the same time. Yes, light bulbs. I love my plug-in car. I'd like some solar shingles. But imagine if every h...",
+        "score": 0.528324187
+      },
+      {
+        "talk_id": "4463",
+        "title": "How to transform apocalypse fatigue into action on global warming",
+        "speaker": "Per Espen Stoknes",
+        "chunk": "Title: How to transform apocalypse fatigue into action on global warming. How do we get people engaged in solving global warming? I'd like to start with running two short experiments with you all. So ...",
+        "score": 0.521524489
+      },
+      {
+        "talk_id": "62628",
+        "title": "How to shift your mindset and choose your future",
+        "speaker": "Tom Rivett-Carnac",
+        "chunk": "Title: How to shift your mindset and choose your future. I never thought that I would be giving my TED Talk somewhere like this. But, like half of humanity, I've spent the last four weeks under lockdo...",
+        "score": 0.519767821
+      }
+    ],
+    "scores": {
+      "faithfulness": 3,
+      "relevance": 3,
+      "completeness": 3,
+      "context_quality": 3,
+      "overall_score": 3,
+      "reasoning": "Failed to parse judge response"
+    },
+    "avg_similarity": 0.5336758046666666
+  },
+  {
+    "question": "Recommend a TED talk for someone interested in leadership. Explain why this talk is relevant.",
+    "category": "Recommendation with Justification",
+    "k_value": 12,
+    "response": "Recommend: \"How great leaders inspire action\" — Simon Sinek.\n\nWhy it's relevant (from the TED transcript): Sinek distinguishes between \"leaders\" and those who truly \"lead,\" saying \"Leaders hold a position of power or authority, but those who lead inspire us.\" He also presents a clear, usable framework — \"the golden circle. Why? How? What?\" — explaining that \"all the great inspiring leaders and organizations ... think, act and communicate the exact same way.\" For someone studying leadership, this talk is directly relevant because it explains what makes leadership inspiring (not just positional) and gives a simple model to analyze and adopt.",
+    "context_chunks": [
+      {
+        "talk_id": "2485",
+        "title": "TED's secret to great public speaking",
+        "speaker": "Chris Anderson",
+        "chunk": "Title: TED's secret to great public speaking. Some people think that there's a TED Talk formula: \"Give a talk on a round, red rug.\" \"Share a childhood story.\" \"Divulge a personal secret.\" \"End with an...",
+        "score": 0.558998108
+      },
+      {
+        "talk_id": "1930",
+        "title": "What it takes to be a great leader",
+        "speaker": "Roselinde Torres",
+        "chunk": ". Great leaders dare to be different. They don't just talk about risk-taking, they actually do it. And one of the leaders shared with me the fact that the most impactful development comes when you are...",
+        "score": 0.546976089
+      },
+      {
+        "talk_id": "70",
+        "title": "8 secrets of success",
+        "speaker": "Richard St. John",
+        "chunk": "Title: 8 secrets of success. This is really a two-hour presentation I give to high school students, cut down to three minutes. And it all started one day on a plane, on my way to TED, seven years ago....",
+        "score": 0.541788161
+      },
+      {
+        "talk_id": "70",
+        "title": "8 secrets of success",
+        "speaker": "Richard St. John",
+        "chunk": "Title: 8 secrets of success. This is really a two-hour presentation I give to high school students, cut down to three minutes. And it all started one day on a plane, on my way to TED, seven years ago....",
+        "score": 0.541664183
+      },
+      {
+        "talk_id": "2665",
+        "title": "If a story moves you, act on it",
+        "speaker": "Sisonke Msimang",
+        "chunk": "Title: If a story moves you, act on it. So earlier this year, I was informed that I would be doing a TED Talk. So I was excited, then I panicked, then I was excited, then I panicked, and in between th...",
+        "score": 0.540407181
+      },
+      {
+        "talk_id": "1355",
+        "title": "Everyday leadership",
+        "speaker": "Drew Dudley",
+        "chunk": "Title: Everyday leadership. I wanted to just start by asking everyone a question: How many of you are completely comfortable with calling yourselves a leader? I've asked that question all across the c...",
+        "score": 0.532564163
+      },
+      {
+        "talk_id": "1044",
+        "title": "How to succeed? Get more sleep",
+        "speaker": "Arianna Huffington",
+        "chunk": ". So a high IQ does not mean that you're a good leader, because the essence of leadership is being able to see the iceberg before it hits the Titanic. (Laughter) And we've had far too many icebergs hi...",
+        "score": 0.531944275
+      },
+      {
+        "talk_id": "814",
+        "title": "How to start a movement",
+        "speaker": "Derek Sivers",
+        "chunk": "Title: How to start a movement. Ladies and gentlemen, at TED we talk a lot about leadership and how to make a movement. So let's watch a movement happen, start to finish, in under three minutes and di...",
+        "score": 0.529005051
+      },
+      {
+        "talk_id": "1355",
+        "title": "Everyday leadership",
+        "speaker": "Drew Dudley",
+        "chunk": ". And if we can understand leadership like that, I think if we can redefine leadership like that, I think we can change everything. And it's a simple idea, but I don't think it's a small one. I want t...",
+        "score": 0.527925491
+      },
+      {
+        "talk_id": "848",
+        "title": "How great leaders inspire action",
+        "speaker": "Simon Sinek",
+        "chunk": ". By the way, he gave the \"I have a dream\" speech, not the \"I have a plan\" speech. (Laughter) Listen to politicians now, with their comprehensive 12-point plans. They're not inspiring anybody. Because...",
+        "score": 0.516830444
+      },
+      {
+        "talk_id": "848",
+        "title": "How great leaders inspire action",
+        "speaker": "Simon Sinek",
+        "chunk": ". There's something else at play here. About three and a half years ago, I made a discovery. And this discovery profoundly changed my view on how I thought the world worked, and it even profoundly cha...",
+        "score": 0.513277054
+      },
+      {
+        "talk_id": "1962",
+        "title": "It's TED, the Musical",
+        "speaker": "The TED Staff",
+        "chunk": ". Understand me still. ♪ ♪ I'm too nervous to give this TED Talk. ♪ All: ♪ Don't give up. Rehearse. You're good. ♪ ♪ We'll edit out the mistakes that you make. ♪ ♪ Give your talk. ♪ DH: ♪ I will be bi...",
+        "score": 0.510734558
+      }
+    ],
+    "scores": {
+      "faithfulness": 3,
+      "relevance": 3,
+      "completeness": 3,
+      "context_quality": 3,
+      "overall_score": 3,
+      "reasoning": "Failed to parse judge response"
+    },
+    "avg_similarity": 0.5326762298333333
+  },
+  {
+    "question": "Find a TED talk that discusses overcoming fear or anxiety. Provide the title and speaker.",
+    "category": "Precise Fact Retrieval",
+    "k_value": 15,
+    "response": "Title: The science of stage fright (and how to overcome it)\nSpeaker: Mikael Cho\n\nExplanation: The talk's transcript begins, \"To start, understand what stage fright is... Before a speech, you fret, 'What if people think I'm awful and I'm an idiot?' That fear ... is the fight or flight response\" — showing the talk directly addresses stage fright and how to overcome it.",
+    "context_chunks": [
+      {
+        "talk_id": "1962",
+        "title": "It's TED, the Musical",
+        "speaker": "The TED Staff",
+        "chunk": ". Understand me still. ♪ ♪ I'm too nervous to give this TED Talk. ♪ All: ♪ Don't give up. Rehearse. You're good. ♪ ♪ We'll edit out the mistakes that you make. ♪ ♪ Give your talk. ♪ DH: ♪ I will be bi...",
+        "score": 0.538779259
+      },
+      {
+        "talk_id": "2746",
+        "title": "The science of stage fright (and how to overcome it)",
+        "speaker": "Mikael Cho",
+        "chunk": "Title: The science of stage fright (and how to overcome it). Palms sweaty, heart racing, stomach in knots. You can't cry for help. Not only is your throat too tight to breathe, but it'd be so embarras...",
+        "score": 0.517548561
+      },
+      {
+        "talk_id": "2665",
+        "title": "If a story moves you, act on it",
+        "speaker": "Sisonke Msimang",
+        "chunk": "Title: If a story moves you, act on it. So earlier this year, I was informed that I would be doing a TED Talk. So I was excited, then I panicked, then I was excited, then I panicked, and in between th...",
+        "score": 0.515610695
+      },
+      {
+        "talk_id": "2485",
+        "title": "TED's secret to great public speaking",
+        "speaker": "Chris Anderson",
+        "chunk": "Title: TED's secret to great public speaking. Some people think that there's a TED Talk formula: \"Give a talk on a round, red rug.\" \"Share a childhood story.\" \"Divulge a personal secret.\" \"End with an...",
+        "score": 0.508173943
+      },
+      {
+        "talk_id": "2809",
+        "title": "Don't feel sorry for refugees -- believe in them",
+        "speaker": "Luma Mufleh",
+        "chunk": "Title: Don't feel sorry for refugees -- believe in them. I remember when I first found out I was going to speak at a TED conference. I ran across the hall to one of my classrooms to inform my students...",
+        "score": 0.501777649
+      },
+      {
+        "talk_id": "1391",
+        "title": "Listening to shame",
+        "speaker": "Brené Brown",
+        "chunk": "Title: Listening to shame. I'm going to tell you a little bit about my TEDxHouston Talk. I woke up the morning after I gave that talk with the worst vulnerability hangover of my life. And I actually d...",
+        "score": 0.498707771
+      },
+      {
+        "talk_id": "3269",
+        "title": "The revolutionary power of diverse thought",
+        "speaker": "Elif Shafak",
+        "chunk": ". We're also interested in our own silences. I have always been very vocal about and written extensively about minority rights, women's rights, LGBT rights. But as I was thinking about this TED Talk, ...",
+        "score": 0.49588874
+      },
+      {
+        "talk_id": "1542",
+        "title": "Fighting with nonviolence",
+        "speaker": "Scilla Elworthy",
+        "chunk": ". But she told the students to sit down. And she walked forward with such calm and such clarity and such total lack of fear that she could walk right up to the first gun, put her hand on it and lower ...",
+        "score": 0.495170623
+      },
+      {
+        "talk_id": "1391",
+        "title": "Listening to shame",
+        "speaker": "Brené Brown",
+        "chunk": ". I define vulnerability as emotional risk, exposure, uncertainty. It fuels our daily lives. And I've come to the belief — this is my 12th year doing this research — that vulnerability is our most acc...",
+        "score": 0.494405746
+      },
+      {
+        "talk_id": "2485",
+        "title": "TED's secret to great public speaking",
+        "speaker": "Chris Anderson",
+        "chunk": ". And even though these speakers and their topics all seem completely different, they actually do have one key common ingredient. And it's this: Your number one task as a speaker is to transfer into y...",
+        "score": 0.492612839
+      },
+      {
+        "talk_id": "480",
+        "title": "3 ways good design makes you happy",
+        "speaker": "Don Norman",
+        "chunk": ". It's round, it's neat. The controls work wonderfully. So that's my new life; it's all about fun. I really have the feeling that pleasant things work better, and that never made any sense to me until...",
+        "score": 0.492136955
+      },
+      {
+        "talk_id": "1962",
+        "title": "It's TED, the Musical",
+        "speaker": "The TED Staff",
+        "chunk": ". ♪ SC 2: ♪ Don't ever try to sell something ♪ ♪ from up on that stage ♪ ♪ or we won't post your talk online. ♪ All: ♪ Somehow we'll make a TED Talk out of you. ♪ (Music) SC 1: Ready to practice one m...",
+        "score": 0.489497185
+      },
+      {
+        "talk_id": "846",
+        "title": "Lies, damned lies and statistics (about TEDTalks)",
+        "speaker": "Sebastian Wernicke",
+        "chunk": ". Now, with the topic: There's a whole range of topics you can choose, but you should choose wisely, because your topic strongly correlates with how users will react to your talk. Now, to make this mo...",
+        "score": 0.486671448
+      },
+      {
+        "talk_id": "62628",
+        "title": "How to shift your mindset and choose your future",
+        "speaker": "Tom Rivett-Carnac",
+        "chunk": "Title: How to shift your mindset and choose your future. I never thought that I would be giving my TED Talk somewhere like this. But, like half of humanity, I've spent the last four weeks under lockdo...",
+        "score": 0.48390007
+      },
+      {
+        "talk_id": "1054",
+        "title": "Addicted to risk",
+        "speaker": "Naomi Klein",
+        "chunk": ". Don't feel ashamed. Putting fear of failure out of your mind can be a very good thing if you're training for a triathlon or preparing to give a TEDTalk, but personally, I think people with the power...",
+        "score": 0.48263073
+      }
+    ],
+    "scores": {
+      "faithfulness": 5,
+      "relevance": 5,
+      "completeness": 5,
+      "context_quality": 5,
+      "overall_score": 5,
+      "reasoning": "The response correctly and directly identifies the TED talk 'The science of stage fright (and how to overcome it)' by Mikael Cho, which is explicitly present in the retrieved context and addresses overcoming fear of public speaking. The answer is fully grounded in the provided transcript excerpt and meets the task requirements."
+    },
+    "avg_similarity": 0.4995674809333333
+  },
+  {
+    "question": "Find a TED talk about the human brain. Provide the title and speaker.",
+    "category": "Precise Fact Retrieval",
+    "k_value": 15,
+    "response": "Title: \"3 clues to understanding your brain\"\nSpeaker: Vilayanur Ramachandran\n\nI base this on the provided transcript excerpt that begins, \"Title: 3 clues to understanding your brain. Well, as Chris pointed out, I study the human brain...\" indicating this TED Talk is explicitly about the human brain.",
+    "context_chunks": [
+      {
+        "talk_id": "2485",
+        "title": "TED's secret to great public speaking",
+        "speaker": "Chris Anderson",
+        "chunk": ". And even though these speakers and their topics all seem completely different, they actually do have one key common ingredient. And it's this: Your number one task as a speaker is to transfer into y...",
+        "score": 0.572947502
+      },
+      {
+        "talk_id": "125",
+        "title": "How brain science will change computing",
+        "speaker": "Jeff Hawkins",
+        "chunk": "Title: How brain science will change computing. I do two things: I design mobile computers and I study brains. Today's talk is about brains and — (Audience member cheers) Yay! I have a brain fan out t...",
+        "score": 0.562393188
+      },
+      {
+        "talk_id": "125",
+        "title": "How brain science will change computing",
+        "speaker": "Jeff Hawkins",
+        "chunk": "Title: How brain science will change computing. I do two things: I design mobile computers and I study brains. Today's talk is about brains and — (Audience member cheers) Yay! I have a brain fan out t...",
+        "score": 0.562267303
+      },
+      {
+        "talk_id": "2172",
+        "title": "Brain-to-brain communication has arrived. How we did it",
+        "speaker": "Miguel Nicolelis",
+        "chunk": ". And I forgot to mention, because of time, that just three weeks ago, a European group just demonstrated the first man-to-man brain-to-brain connection. BG: And how does that play? MN: There was one ...",
+        "score": 0.552374899
+      },
+      {
+        "talk_id": "184",
+        "title": "3 clues to understanding your brain",
+        "speaker": "Vilayanur Ramachandran",
+        "chunk": "Title: 3 clues to understanding your brain. Well, as Chris pointed out, I study the human brain, the functions and structure of the human brain. And I just want you to think for a minute about what th...",
+        "score": 0.549900115
+      },
+      {
+        "talk_id": "184",
+        "title": "3 clues to understanding your brain",
+        "speaker": "Vilayanur Ramachandran",
+        "chunk": "Title: 3 clues to understanding your brain. Well, as Chris pointed out, I study the human brain, the functions and structure of the human brain. And I just want you to think for a minute about what th...",
+        "score": 0.549667358
+      },
+      {
+        "talk_id": "724",
+        "title": "The neurons that shaped civilization",
+        "speaker": "Vilayanur Ramachandran",
+        "chunk": "Title: The neurons that shaped civilization. I'd like to talk to you today about the human brain, which is what we do research on at the University of California. Just think about this problem for a s...",
+        "score": 0.545171797
+      },
+      {
+        "talk_id": "630",
+        "title": "How we read each other's minds",
+        "speaker": "Rebecca Saxe",
+        "chunk": ". The whole research program here of studying the distinctive parts of the human brain is brand new. Until recently, what we knew about the brain were the things that any other animal's brain could do...",
+        "score": 0.522829056
+      },
+      {
+        "talk_id": "2077",
+        "title": "A neural portrait of the human mind",
+        "speaker": "Nancy Kanwisher",
+        "chunk": "Title: A neural portrait of the human mind. Today I want to tell you about a project being carried out by scientists all over the world to paint a neural portrait of the human mind. And the central id...",
+        "score": 0.520401
+      },
+      {
+        "talk_id": "1267",
+        "title": "A map of the brain",
+        "speaker": "Allan Jones",
+        "chunk": "Title: A map of the brain. Humans have long held a fascination for the human brain. We chart it, we've described it, we've drawn it, we've mapped it. Now just like the physical maps of our world that ...",
+        "score": 0.511967659
+      },
+      {
+        "talk_id": "630",
+        "title": "How we read each other's minds",
+        "speaker": "Rebecca Saxe",
+        "chunk": ". And yet, you put them together in a particular network, and what you get is the capacity to write Romeo and Juliet. Or to say, as Alan Greenspan did, \"I know you think you understand what you though...",
+        "score": 0.509477556
+      },
+      {
+        "talk_id": "211",
+        "title": "TED's nonprofit transition",
+        "speaker": "Chris Anderson",
+        "chunk": ". To understand even something as important to us as happiness, you kind of have to branch off in all these different directions, and there's nowhere that I've discovered — other than TED — where you ...",
+        "score": 0.507902145
+      },
+      {
+        "talk_id": "211",
+        "title": "TED's nonprofit transition",
+        "speaker": "Chris Anderson",
+        "chunk": ". To understand even something as important to us as happiness, you kind of have to branch off in all these different directions, and there's nowhere that I've discovered — other than TED — where you ...",
+        "score": 0.507867873
+      },
+      {
+        "talk_id": "2485",
+        "title": "TED's secret to great public speaking",
+        "speaker": "Chris Anderson",
+        "chunk": ". There's something even more startling happening. Let's take a look inside Haley's brain for a moment. There are billions of interconnected neurons in an impossible tangle. But look here, right here ...",
+        "score": 0.506767273
+      },
+      {
+        "talk_id": "12066",
+        "title": "How to tame your wandering mind",
+        "speaker": "Amishi Jha",
+        "chunk": "Title: How to tame your wandering mind. Consider the following statement: human beings only use 10 percent of their brain capacity. Well, as a neuroscientist, I can tell you that while Morgan Freeman ...",
+        "score": 0.50627327
+      }
+    ],
+    "scores": {
+      "faithfulness": 3,
+      "relevance": 3,
+      "completeness": 3,
+      "context_quality": 3,
+      "overall_score": 3,
+      "reasoning": "Failed to parse judge response"
+    },
+    "avg_similarity": 0.5325471996
+  },
+  {
+    "question": "Which TED talks focus on education or learning? Return a list of exactly 3 talk titles.",
+    "category": "Multi-Result Topic Listing",
+    "k_value": 15,
+    "response": "- Bring on the learning revolution!\n- The birth of the open-source learning revolution\n- The child-driven education\n\nExplanation (from the provided TED transcripts):\n- Bring on the learning revolution! — title itself and opening lines frame the talk around learning: \"Bring on the learning revolution!\" and the speaker refers to putting talks online and a \"hunger for videos,\" indicating a focus on education and its reach in the transcript provided.\n- The birth of the open-source learning revolution — the transcript explicitly ties the talk to education: \"Connexions and open content is all about sharing knowledge... invite each and every one of you to contribute to this project ... change the landscape of education and educational publishing.\"\n- The child-driven education — the transcript describes educational programs and methods: references to volunteers giving \"one hour of broadband time,\" \"over 600 hours of instruction,\" and \"This is what I'm building now — they're called SOLEs: Self Organized Learning Environments,\" which show the talk is about learning/education.",
+    "context_chunks": [
+      {
+        "talk_id": "1315",
+        "title": "1,000 TED Talks in six words",
+        "speaker": "Sebastian Wernicke",
+        "chunk": ". But it's actually not, because there's an example by statistics professor Hans Rosling. I guess many of you have seen one or more of his talks. He's got eight talks online, and those can basically b...",
+        "score": 0.521003783
+      },
+      {
+        "talk_id": "2485",
+        "title": "TED's secret to great public speaking",
+        "speaker": "Chris Anderson",
+        "chunk": "Title: TED's secret to great public speaking. Some people think that there's a TED Talk formula: \"Give a talk on a round, red rug.\" \"Share a childhood story.\" \"Divulge a personal secret.\" \"End with an...",
+        "score": 0.508068144
+      },
+      {
+        "talk_id": "865",
+        "title": "Bring on the learning revolution!",
+        "speaker": "Sir Ken Robinson",
+        "chunk": "Title: Bring on the learning revolution!. I was here four years ago, and I remember, at the time, that the talks weren't put online. I think they were given to TEDsters in a box, a box set of DVDs, wh...",
+        "score": 0.505247176
+      },
+      {
+        "talk_id": "955",
+        "title": "How web video powers global innovation",
+        "speaker": "Chris Anderson",
+        "chunk": ". I mean, today, one person speaking can be seen by millions, shedding bright light on potent ideas, creating intense desire for learning and to respond — and in his case, intense desire to laugh. For...",
+        "score": 0.503875792
+      },
+      {
+        "talk_id": "955",
+        "title": "How web video powers global innovation",
+        "speaker": "Chris Anderson",
+        "chunk": ". And so, as we've thought about this, you know, it's become clear to us what the next stage of TED's evolution has to be. TEDTalks can't be a one-way process, one-to-many. Our future is many-to-many....",
+        "score": 0.501098692
+      },
+      {
+        "talk_id": "2264",
+        "title": "Gorgeous portraits of the world's vanishing people",
+        "speaker": "Jimmy Nelson",
+        "chunk": ". You must know about it.\" And I said, \"I've been in a teepee and in a yurt for the last five years. How do I know who Ted is? Introduce me to him.\" Anyway, to cut a long story short, he said, \"We hav...",
+        "score": 0.49261862
+      },
+      {
+        "talk_id": "846",
+        "title": "Lies, damned lies and statistics (about TEDTalks)",
+        "speaker": "Sebastian Wernicke",
+        "chunk": ". Now, with the topic: There's a whole range of topics you can choose, but you should choose wisely, because your topic strongly correlates with how users will react to your talk. Now, to make this mo...",
+        "score": 0.484640151
+      },
+      {
+        "talk_id": "1315",
+        "title": "1,000 TED Talks in six words",
+        "speaker": "Sebastian Wernicke",
+        "chunk": "Title: 1,000 TED Talks in six words. There's currently over a thousand TED Talks on the TED website. And I guess many of you here think that this is quite fantastic, except for me, I don't agree with ...",
+        "score": 0.477687865
+      },
+      {
+        "talk_id": "846",
+        "title": "Lies, damned lies and statistics (about TEDTalks)",
+        "speaker": "Sebastian Wernicke",
+        "chunk": "Title: Lies, damned lies and statistics (about TEDTalks). If you go on the TED website, you can currently find there over a full week of TEDTalk videos, over 1.3 million words of transcripts and milli...",
+        "score": 0.476848632
+      },
+      {
+        "talk_id": "25",
+        "title": "The birth of the open-source learning revolution",
+        "speaker": "Richard Baraniuk",
+        "chunk": ". And you can think of TED as a potential lens. So I'd just like to end by saying: you can really view this as a call to action. Connexions and open content is all about sharing knowledge. All of you ...",
+        "score": 0.46569255
+      },
+      {
+        "talk_id": "25",
+        "title": "The birth of the open-source learning revolution",
+        "speaker": "Richard Baraniuk",
+        "chunk": ". And you can think of TED as a potential lens. So I'd just like to end by saying: you can really view this as a call to action. Connexions and open content is all about sharing knowledge. All of you ...",
+        "score": 0.46550566
+      },
+      {
+        "talk_id": "949",
+        "title": "The child-driven education",
+        "speaker": "Sugata Mitra",
+        "chunk": ". 200 of them volunteered immediately. (Laughter) The deal was that they would give me one hour of broadband time, sitting in their homes, one day in a week. So they did that, and over the last two ye...",
+        "score": 0.462791473
+      },
+      {
+        "talk_id": "70",
+        "title": "8 secrets of success",
+        "speaker": "Richard St. John",
+        "chunk": "Title: 8 secrets of success. This is really a two-hour presentation I give to high school students, cut down to three minutes. And it all started one day on a plane, on my way to TED, seven years ago....",
+        "score": 0.460138381
+      },
+      {
+        "talk_id": "70",
+        "title": "8 secrets of success",
+        "speaker": "Richard St. John",
+        "chunk": "Title: 8 secrets of success. This is really a two-hour presentation I give to high school students, cut down to three minutes. And it all started one day on a plane, on my way to TED, seven years ago....",
+        "score": 0.459997237
+      },
+      {
+        "talk_id": "1315",
+        "title": "1,000 TED Talks in six words",
+        "speaker": "Sebastian Wernicke",
+        "chunk": ". And I also encountered a project called Six-Word Memoirs where people were asked, take your whole life and please sum this up into six words, such as these here: \"Found true love, married someone el...",
+        "score": 0.459825516
+      }
+    ],
+    "scores": {
+      "faithfulness": 3,
+      "relevance": 3,
+      "completeness": 3,
+      "context_quality": 3,
+      "overall_score": 3,
+      "reasoning": "Failed to parse judge response"
+    },
+    "avg_similarity": 0.4830026448
+  },
+  {
+    "question": "List 3 TED talks about technology or innovation.",
+    "category": "Multi-Result Topic Listing",
+    "k_value": 15,
+    "response": "- \"How web video powers global innovation\" — Chris Anderson. The talk itself is framed around web video and crowd-driven innovation; Anderson opens by describing the phenomenon and how \"large human crowds... can do something really cool,\" illustrating the web-video-enabled spread of ideas (transcript: \"It's a phenomenon that I think any organization or individual can tap into\").\n\n- \"The anthropology of mobile phones\" — Jan Chipchase. This talk centers on mobile connectivity and its unpredictable innovations: \"And it will innovate in ways that we cannot anticipate... they can do it better than us,\" and Chipchase notes that \"with another three billion people connected, they want to be part of the conversation\" (transcript).\n\n- \"How we need to remake the internet\" — Jaron Lanier. Lanier frames his talk around the double-edged nature of digital technology: \"we knew that we were facing a knife-edge future where the technology we needed, the technology we loved, could also be our undoing\" (transcript).",
+    "context_chunks": [
+      {
+        "talk_id": "955",
+        "title": "How web video powers global innovation",
+        "speaker": "Chris Anderson",
+        "chunk": "Title: How web video powers global innovation. If nothing else, at least I've discovered what it is we put our speakers through: sweaty palms, sleepless nights, a wholly unnatural fear of clocks. I me...",
+        "score": 0.530906677
+      },
+      {
+        "talk_id": "1378",
+        "title": "We need to talk about an injustice",
+        "speaker": "Bryan Stevenson",
+        "chunk": ". We love innovation. We love technology. We love creativity. We love entertainment. But ultimately, those realities are shadowed by suffering, abuse, degradation, marginalization. And for me, it beco...",
+        "score": 0.520551741
+      },
+      {
+        "talk_id": "1567",
+        "title": "Demand a fair trade cell phone",
+        "speaker": "Bandi Mbubi",
+        "chunk": ". TED has always celebrated what technology can do for us, technology in its finished form. It is time to be asking questions about technology. Where does it come from? Who makes it? And for what? Her...",
+        "score": 0.508136749
+      },
+      {
+        "talk_id": "2485",
+        "title": "TED's secret to great public speaking",
+        "speaker": "Chris Anderson",
+        "chunk": "Title: TED's secret to great public speaking. Some people think that there's a TED Talk formula: \"Give a talk on a round, red rug.\" \"Share a childhood story.\" \"Divulge a personal secret.\" \"End with an...",
+        "score": 0.507959366
+      },
+      {
+        "talk_id": "190",
+        "title": "The anthropology of mobile phones",
+        "speaker": "Jan Chipchase",
+        "chunk": ". And it will innovate in ways that we cannot anticipate. In ways that, despite our resources, they can do it better than us. That's my feeling. And if we're smart, we'll look at this stuff that's goi...",
+        "score": 0.507047653
+      },
+      {
+        "talk_id": "190",
+        "title": "The anthropology of mobile phones",
+        "speaker": "Jan Chipchase",
+        "chunk": ". And it will innovate in ways that we cannot anticipate. In ways that, despite our resources, they can do it better than us. That's my feeling. And if we're smart, we'll look at this stuff that's goi...",
+        "score": 0.506999969
+      },
+      {
+        "talk_id": "14439",
+        "title": "How we need to remake the internet",
+        "speaker": "Jaron Lanier",
+        "chunk": "Title: How we need to remake the internet. Back in the 1980s, actually, I gave my first talk at TED, and I brought some of the very, very first public demonstrations of virtual reality ever to the TED...",
+        "score": 0.503538132
+      },
+      {
+        "talk_id": "846",
+        "title": "Lies, damned lies and statistics (about TEDTalks)",
+        "speaker": "Sebastian Wernicke",
+        "chunk": ". Now, with the topic: There's a whole range of topics you can choose, but you should choose wisely, because your topic strongly correlates with how users will react to your talk. Now, to make this mo...",
+        "score": 0.491380692
+      },
+      {
+        "talk_id": "441",
+        "title": "The extraordinary power of ordinary people",
+        "speaker": "Sherwin Nuland",
+        "chunk": "Title: The extraordinary power of ordinary people. You know, I am so bad at tech that my daughter — who is now 41 — when she was five, was overheard by me to say to a friend of hers, If it doesn't ble...",
+        "score": 0.491201401
+      },
+      {
+        "talk_id": "846",
+        "title": "Lies, damned lies and statistics (about TEDTalks)",
+        "speaker": "Sebastian Wernicke",
+        "chunk": ". And the more technical topics, such as architecture, materials and, strangely enough, men, those are not good topics to talk about. How should you deliver your talk? TED is famous for keeping a very...",
+        "score": 0.484727859
+      },
+      {
+        "talk_id": "1378",
+        "title": "We need to talk about an injustice",
+        "speaker": "Bryan Stevenson",
+        "chunk": ". Innovation, creativity, development comes not from the ideas in our mind alone. They come from the ideas in our mind that are also fueled by some conviction in our heart. And it's that mind-heart co...",
+        "score": 0.481683761
+      },
+      {
+        "talk_id": "255",
+        "title": "The thinking behind 50x15",
+        "speaker": "Hector Ruiz",
+        "chunk": "Title: The thinking behind 50x15. You know, one of the things that I'd like to say upfront is that I'm really here by accident. And what I mean — not at TED — that I'm — at this point in my life, trul...",
+        "score": 0.479553223
+      },
+      {
+        "talk_id": "48",
+        "title": "Everyday inventions",
+        "speaker": "Saul Griffith",
+        "chunk": ". This doesn't mean we should ignore software, or information, or computation.\" And that's in fact probably what I'm going to try and tell you about. So, this talk is going to be about how do we make ...",
+        "score": 0.475091934
+      },
+      {
+        "talk_id": "48",
+        "title": "Everyday inventions",
+        "speaker": "Saul Griffith",
+        "chunk": ". This doesn't mean we should ignore software, or information, or computation.\" And that's in fact probably what I'm going to try and tell you about. So, this talk is going to be about how do we make ...",
+        "score": 0.475000381
+      },
+      {
+        "talk_id": "2264",
+        "title": "Gorgeous portraits of the world's vanishing people",
+        "speaker": "Jimmy Nelson",
+        "chunk": ". You must know about it.\" And I said, \"I've been in a teepee and in a yurt for the last five years. How do I know who Ted is? Introduce me to him.\" Anyway, to cut a long story short, he said, \"We hav...",
+        "score": 0.474355727
+      }
+    ],
+    "scores": {
+      "faithfulness": 3,
+      "relevance": 3,
+      "completeness": 3,
+      "context_quality": 3,
+      "overall_score": 3,
+      "reasoning": "Failed to parse judge response"
+    },
+    "avg_similarity": 0.4958756843333333
+  },
+  {
+    "question": "Find a TED talk where the speaker talks about technology improving people's lives. Provide the title and a short summary of the key idea.",
+    "category": "Key Idea Summary",
+    "k_value": 15,
+    "response": "Title: \"The thinking behind 50x15\" — Hector Ruiz\n\nSummary: Ruiz argues that technology can be a powerful enabler of better lives — it helped create the “accidents” that shaped his own life and, used well, can make those positive opportunities happen more often for others. As he says in the talk, “technology played a big role in that” and “technology is a tremendous enabler; a very powerful tool to help address some of these challenges,” particularly in the areas he cares about most: children and education.",
+    "context_chunks": [
+      {
+        "talk_id": "1162",
+        "title": "We need a \"moral operating system\"",
+        "speaker": "Damon Horowitz",
+        "chunk": ". \"Did I evaluate what would be the highest pleasure like Mill would? Or like Kant, did I use reason to figure out what was intrinsically right?\" Think about it. Really bring it to mind. This is impor...",
+        "score": 0.568338394
+      },
+      {
+        "talk_id": "2485",
+        "title": "TED's secret to great public speaking",
+        "speaker": "Chris Anderson",
+        "chunk": "Title: TED's secret to great public speaking. Some people think that there's a TED Talk formula: \"Give a talk on a round, red rug.\" \"Share a childhood story.\" \"Divulge a personal secret.\" \"End with an...",
+        "score": 0.55586338
+      },
+      {
+        "talk_id": "846",
+        "title": "Lies, damned lies and statistics (about TEDTalks)",
+        "speaker": "Sebastian Wernicke",
+        "chunk": ". Now, with the topic: There's a whole range of topics you can choose, but you should choose wisely, because your topic strongly correlates with how users will react to your talk. Now, to make this mo...",
+        "score": 0.535277367
+      },
+      {
+        "talk_id": "14439",
+        "title": "How we need to remake the internet",
+        "speaker": "Jaron Lanier",
+        "chunk": "Title: How we need to remake the internet. Back in the 1980s, actually, I gave my first talk at TED, and I brought some of the very, very first public demonstrations of virtual reality ever to the TED...",
+        "score": 0.53486824
+      },
+      {
+        "talk_id": "1378",
+        "title": "We need to talk about an injustice",
+        "speaker": "Bryan Stevenson",
+        "chunk": ". We love innovation. We love technology. We love creativity. We love entertainment. But ultimately, those realities are shadowed by suffering, abuse, degradation, marginalization. And for me, it beco...",
+        "score": 0.530267775
+      },
+      {
+        "talk_id": "1315",
+        "title": "1,000 TED Talks in six words",
+        "speaker": "Sebastian Wernicke",
+        "chunk": ". But it's actually not, because there's an example by statistics professor Hans Rosling. I guess many of you have seen one or more of his talks. He's got eight talks online, and those can basically b...",
+        "score": 0.527374268
+      },
+      {
+        "talk_id": "255",
+        "title": "The thinking behind 50x15",
+        "speaker": "Hector Ruiz",
+        "chunk": "Title: The thinking behind 50x15. You know, one of the things that I'd like to say upfront is that I'm really here by accident. And what I mean — not at TED — that I'm — at this point in my life, trul...",
+        "score": 0.524803162
+      },
+      {
+        "talk_id": "1315",
+        "title": "1,000 TED Talks in six words",
+        "speaker": "Sebastian Wernicke",
+        "chunk": ". And I also encountered a project called Six-Word Memoirs where people were asked, take your whole life and please sum this up into six words, such as these here: \"Found true love, married someone el...",
+        "score": 0.52098459
+      },
+      {
+        "talk_id": "846",
+        "title": "Lies, damned lies and statistics (about TEDTalks)",
+        "speaker": "Sebastian Wernicke",
+        "chunk": "Title: Lies, damned lies and statistics (about TEDTalks). If you go on the TED website, you can currently find there over a full week of TEDTalk videos, over 1.3 million words of transcripts and milli...",
+        "score": 0.520701408
+      },
+      {
+        "talk_id": "312",
+        "title": "The new era of positive psychology",
+        "speaker": "Martin Seligman",
+        "chunk": ". So, Chris said that the last speaker had a chance to try to integrate what he heard, and so this was amazing for me. I've never been in a gathering like this. I've never seen speakers stretch beyond...",
+        "score": 0.520441055
+      },
+      {
+        "talk_id": "1315",
+        "title": "1,000 TED Talks in six words",
+        "speaker": "Sebastian Wernicke",
+        "chunk": "Title: 1,000 TED Talks in six words. There's currently over a thousand TED Talks on the TED website. And I guess many of you here think that this is quite fantastic, except for me, I don't agree with ...",
+        "score": 0.51859
+      },
+      {
+        "talk_id": "441",
+        "title": "The extraordinary power of ordinary people",
+        "speaker": "Sherwin Nuland",
+        "chunk": "Title: The extraordinary power of ordinary people. You know, I am so bad at tech that my daughter — who is now 41 — when she was five, was overheard by me to say to a friend of hers, If it doesn't ble...",
+        "score": 0.515821457
+      },
+      {
+        "talk_id": "955",
+        "title": "How web video powers global innovation",
+        "speaker": "Chris Anderson",
+        "chunk": "Title: How web video powers global innovation. If nothing else, at least I've discovered what it is we put our speakers through: sweaty palms, sleepless nights, a wholly unnatural fear of clocks. I me...",
+        "score": 0.513599396
+      },
+      {
+        "talk_id": "1378",
+        "title": "We need to talk about an injustice",
+        "speaker": "Bryan Stevenson",
+        "chunk": "Title: We need to talk about an injustice. Well this is a really extraordinary honor for me. I spend most of my time in jails, in prisons, on death row. I spend most of my time in very low-income comm...",
+        "score": 0.507791519
+      },
+      {
+        "talk_id": "4669",
+        "title": "How can groups make good decisions?",
+        "speaker": "Dan Ariely",
+        "chunk": ". So that's a potentially helpful method for getting crowds to solve problems that have simple right-or-wrong answers. But can this procedure of aggregating the results of debates in small groups also...",
+        "score": 0.504963
+      }
+    ],
+    "scores": {
+      "faithfulness": 3,
+      "relevance": 3,
+      "completeness": 3,
+      "context_quality": 3,
+      "overall_score": 3,
+      "reasoning": "Failed to parse judge response"
+    },
+    "avg_similarity": 0.5266456674
+  },
+  {
+    "question": "Find a TED talk about creativity. Provide the title and summarize the speaker's main argument.",
+    "category": "Key Idea Summary",
+    "k_value": 15,
+    "response": "Title: \"How to build your creative confidence\" — David Kelley\n\nSummary of the speaker's main argument (from the provided TED transcript):\nDavid Kelley argues that creativity is not a fixed trait belonging only to a few “creative” people; instead, everyone can be naturally creative and learn to act on their ideas. He says building creative confidence — what Bandura calls self‑efficacy — lets people generate more and better ideas, make better decisions, and \"let their ideas fly.\" As he puts it in the transcript: don't let people \"divide the world into the creatives and the non‑creatives\" and help people \"reach a place of creative confidence.\"",
+    "context_chunks": [
+      {
+        "talk_id": "250",
+        "title": "Where does creativity hide?",
+        "speaker": "Amy Tan",
+        "chunk": "Title: Where does creativity hide?. The Value of Nothing: Out of Nothing Comes Something. That was an essay I wrote when I was 11 years old and I got a B+. (Laughter) What I'm going to talk about: not...",
+        "score": 0.598209441
+      },
+      {
+        "talk_id": "2485",
+        "title": "TED's secret to great public speaking",
+        "speaker": "Chris Anderson",
+        "chunk": ". Here are just a few examples shared from the TED stage. Sir Ken Robinson — creativity is key to our kids' future. (Video) Sir Ken Robinson: My contention is that creativity now is as important in ed...",
+        "score": 0.582811415
+      },
+      {
+        "talk_id": "1449",
+        "title": "How to build your creative confidence",
+        "speaker": "David Kelley",
+        "chunk": ". We see people quit what they're doing and go in new directions. We see them come up with more interesting — and just more — ideas, so they can choose from better ideas. And they just make better dec...",
+        "score": 0.57233429
+      },
+      {
+        "talk_id": "2485",
+        "title": "TED's secret to great public speaking",
+        "speaker": "Chris Anderson",
+        "chunk": "Title: TED's secret to great public speaking. Some people think that there's a TED Talk formula: \"Give a talk on a round, red rug.\" \"Share a childhood story.\" \"Divulge a personal secret.\" \"End with an...",
+        "score": 0.570179939
+      },
+      {
+        "talk_id": "407",
+        "title": "Do the green thing",
+        "speaker": "Andy Hobsbawm",
+        "chunk": "Title: Do the green thing. Great creativity. In times of need, we need great creativity. Discuss. Great creativity is astonishingly, absurdly, rationally, irrationally powerful. Great creativity can s...",
+        "score": 0.559959412
+      },
+      {
+        "talk_id": "70",
+        "title": "8 secrets of success",
+        "speaker": "Richard St. John",
+        "chunk": ". And there's no magic to creativity in coming up with ideas — it's just doing some very simple things. And I give lots of evidence. Persist! Joe Kraus says, \"Persistence is the number one reason for ...",
+        "score": 0.553134918
+      },
+      {
+        "talk_id": "70",
+        "title": "8 secrets of success",
+        "speaker": "Richard St. John",
+        "chunk": ". And there's no magic to creativity in coming up with ideas — it's just doing some very simple things. And I give lots of evidence. Persist! Joe Kraus says, \"Persistence is the number one reason for ...",
+        "score": 0.55304718
+      },
+      {
+        "talk_id": "32",
+        "title": "Art with wire, sugar, chocolate and string",
+        "speaker": "Vik Muniz",
+        "chunk": "Title: Art with wire, sugar, chocolate and string. I was asked to come here and speak about creation. And I only have 15 minutes, and I see they're counting already. And I can — in 15 minutes, I think...",
+        "score": 0.539070129
+      },
+      {
+        "talk_id": "32",
+        "title": "Art with wire, sugar, chocolate and string",
+        "speaker": "Vik Muniz",
+        "chunk": "Title: Art with wire, sugar, chocolate and string. I was asked to come here and speak about creation. And I only have 15 minutes, and I see they're counting already. And I can — in 15 minutes, I think...",
+        "score": 0.538911819
+      },
+      {
+        "talk_id": "63",
+        "title": "The era of open innovation",
+        "speaker": "Charles Leadbeater",
+        "chunk": ". So this is a huge challenge to the way we think creativity comes about. The traditional view, still enshrined in much of the way that we think about creativity — in organizations, in government — is...",
+        "score": 0.531557083
+      },
+      {
+        "talk_id": "63",
+        "title": "The era of open innovation",
+        "speaker": "Charles Leadbeater",
+        "chunk": ". So this is a huge challenge to the way we think creativity comes about. The traditional view, still enshrined in much of the way that we think about creativity — in organizations, in government — is...",
+        "score": 0.531372
+      },
+      {
+        "talk_id": "846",
+        "title": "Lies, damned lies and statistics (about TEDTalks)",
+        "speaker": "Sebastian Wernicke",
+        "chunk": ". Slides are okay, though you might consider going for props. And now the most important thing, that is the mood onstage. Color plays a very important role. Color closely correlates with the ratings t...",
+        "score": 0.530652046
+      },
+      {
+        "talk_id": "3633",
+        "title": "What AI is -- and isn't",
+        "speaker": "Sebastian Thrun",
+        "chunk": ". And I'm burning to have something that helps me get rid of this. Why? Because I believe all of us are insanely creative; I think the TED community more than anybody else. But even blue-collar worker...",
+        "score": 0.525541365
+      },
+      {
+        "talk_id": "2485",
+        "title": "TED's secret to great public speaking",
+        "speaker": "Chris Anderson",
+        "chunk": ". And even though these speakers and their topics all seem completely different, they actually do have one key common ingredient. And it's this: Your number one task as a speaker is to transfer into y...",
+        "score": 0.518518448
+      },
+      {
+        "talk_id": "1315",
+        "title": "1,000 TED Talks in six words",
+        "speaker": "Sebastian Wernicke",
+        "chunk": ". And I also encountered a project called Six-Word Memoirs where people were asked, take your whole life and please sum this up into six words, such as these here: \"Found true love, married someone el...",
+        "score": 0.515633523
+      }
+    ],
+    "scores": {
+      "faithfulness": 5,
+      "relevance": 5,
+      "completeness": 5,
+      "context_quality": 5,
+      "overall_score": 5,
+      "reasoning": "The response correctly selected a TED talk about creativity from the provided context (David Kelley) and summarized key points that are explicitly present in the retrieved transcript (creativity not fixed, everyone can be creative, creative confidence/self-efficacy, more/better ideas and decisions). It meets the requirement to provide title and main-argument summary; the retrieved chunks were relevant and sufficient."
+    },
+    "avg_similarity": 0.5480622005333333
+  },
+  {
+    "question": "I'm looking for a TED talk about climate change and what individuals can do in their daily lives. Which talk would you recommend?",
+    "category": "Recommendation with Justification",
+    "k_value": 15,
+    "response": "I would recommend Katharine Hayhoe's talk, \"The most important thing you can do to fight climate change: talk about it.\" In the provided transcript she explicitly links climate to everyday choices and lists concrete actions people can take: \"There's simple solutions that save us money and reduce our carbon footprint at the same time. Yes, light bulbs. I love my plug-in car. I'd like some solar shingles.\" She also names lifestyle changes: \"eating local, eating lower down the food chain and reducing food waste,\" and discusses managing personal carbon footprint (her travel) and the importance of conversations to spur action.\n\nIf you want other talks from the same dataset that also focus on individual actions or engagement, see John Doerr's \"Salvation (and profit) in greentech\" (he suggests getting carbon neutral, buying carbon credits and using your influence to lead businesses to go green) and Alice Bows‑Larkin's \"Climate change is happening. Here's how we adapt\" (which mentions changing lifestyles and talking with friends, family and officials).",
+    "context_chunks": [
+      {
+        "talk_id": "29968",
+        "title": "The most important thing you can do to fight climate change: talk about it",
+        "speaker": "Katharine Hayhoe",
+        "chunk": ". But in reality, that boulder is already at the top of the hill. And it's got hundreds of millions of hands, maybe even billions on it, pushing it down. It just isn't going fast enough. So how do we ...",
+        "score": 0.566787779
+      },
+      {
+        "talk_id": "60080",
+        "title": "How we could change the planet's climate future",
+        "speaker": "David Wallace-Wells",
+        "chunk": "Title: How we could change the planet's climate future. I'm here to talk about climate change, but I'm not really an environmentalist. In fact, I've never really thought of myself as a nature person. ...",
+        "score": 0.540448248
+      },
+      {
+        "talk_id": "4463",
+        "title": "How to transform apocalypse fatigue into action on global warming",
+        "speaker": "Per Espen Stoknes",
+        "chunk": ". Now, that's massive. And in Oslo, we can see how enthusiastic EV owners go and tell their electric stories to friends and neighbors and bring them along. So we come full circle from story back to so...",
+        "score": 0.53656584
+      },
+      {
+        "talk_id": "192",
+        "title": "A critical look at geoengineering against climate change",
+        "speaker": "David Keith",
+        "chunk": ". What I'm going to talk to you about tonight is stuff we might do if we did nothing. And it's this stuff in the middle here, which is what you do if you don't stop the emissions quickly enough. And y...",
+        "score": 0.534202576
+      },
+      {
+        "talk_id": "192",
+        "title": "A critical look at geoengineering against climate change",
+        "speaker": "David Keith",
+        "chunk": ". What I'm going to talk to you about tonight is stuff we might do if we did nothing. And it's this stuff in the middle here, which is what you do if you don't stop the emissions quickly enough. And y...",
+        "score": 0.533905089
+      },
+      {
+        "talk_id": "32560",
+        "title": "The disarming case to act right now on climate change",
+        "speaker": "Greta Thunberg",
+        "chunk": "Title: The disarming case to act right now on climate change. When I was about eight years old, I first heard about something called climate change or global warming. Apparently, that was something hu...",
+        "score": 0.531816542
+      },
+      {
+        "talk_id": "128",
+        "title": "Salvation (and profit) in greentech",
+        "speaker": "John Doerr",
+        "chunk": ". Everyone here cares about changing the world and has made a difference in that one way or another. So, our call to action — my call to you — is for you to make going green your next big thing, your ...",
+        "score": 0.531272948
+      },
+      {
+        "talk_id": "128",
+        "title": "Salvation (and profit) in greentech",
+        "speaker": "John Doerr",
+        "chunk": ". Everyone here cares about changing the world and has made a difference in that one way or another. So, our call to action — my call to you — is for you to make going green your next big thing, your ...",
+        "score": 0.530986845
+      },
+      {
+        "talk_id": "2339",
+        "title": "Climate change is happening. Here's how we adapt",
+        "speaker": "Alice Bows-Larkin",
+        "chunk": "Title: Climate change is happening. Here's how we adapt. Over our lifetimes, we've all contributed to climate change. Actions, choices and behaviors will have led to an increase in greenhouse gas emis...",
+        "score": 0.528507292
+      },
+      {
+        "talk_id": "29968",
+        "title": "The most important thing you can do to fight climate change: talk about it",
+        "speaker": "Katharine Hayhoe",
+        "chunk": ". (Laughter) There's simple solutions that save us money and reduce our carbon footprint at the same time. Yes, light bulbs. I love my plug-in car. I'd like some solar shingles. But imagine if every h...",
+        "score": 0.528324187
+      },
+      {
+        "talk_id": "4463",
+        "title": "How to transform apocalypse fatigue into action on global warming",
+        "speaker": "Per Espen Stoknes",
+        "chunk": "Title: How to transform apocalypse fatigue into action on global warming. How do we get people engaged in solving global warming? I'd like to start with running two short experiments with you all. So ...",
+        "score": 0.521524489
+      },
+      {
+        "talk_id": "62628",
+        "title": "How to shift your mindset and choose your future",
+        "speaker": "Tom Rivett-Carnac",
+        "chunk": "Title: How to shift your mindset and choose your future. I never thought that I would be giving my TED Talk somewhere like this. But, like half of humanity, I've spent the last four weeks under lockdo...",
+        "score": 0.519767821
+      },
+      {
+        "talk_id": "881",
+        "title": "Debate: Does the world need nuclear energy?",
+        "speaker": "Stewart Brand",
+        "chunk": ". So, in favor of the proposition, possibly shockingly, is one of, truly, the founders of the environmental movement, a long-standing TEDster, the founder of the Whole Earth Catalog, someone we all kn...",
+        "score": 0.518255293
+      },
+      {
+        "talk_id": "2339",
+        "title": "Climate change is happening. Here's how we adapt",
+        "speaker": "Alice Bows-Larkin",
+        "chunk": ". This is a really difficult message to take, because what it suggests is that we really need to do things differently. This is not about just incremental change. This is about doing things differentl...",
+        "score": 0.516927779
+      },
+      {
+        "talk_id": "4463",
+        "title": "How to transform apocalypse fatigue into action on global warming",
+        "speaker": "Per Espen Stoknes",
+        "chunk": ". 2017 is already so unexpectedly warm, it's freaking out climate scientists. We have a three-year window to cut emissions, three years. If not, we will soon live in a boiling earth, a hellhole. OK. S...",
+        "score": 0.515637457
+      }
+    ],
+    "scores": {
+      "faithfulness": 3,
+      "relevance": 3,
+      "completeness": 3,
+      "context_quality": 3,
+      "overall_score": 3,
+      "reasoning": "Failed to parse judge response"
+    },
+    "avg_similarity": 0.530328679
+  },
+  {
+    "question": "Recommend a TED talk for someone interested in leadership. Explain why this talk is relevant.",
+    "category": "Recommendation with Justification",
+    "k_value": 15,
+    "response": "Recommend: \"What it takes to be a great leader\" — Roselinde Torres.\n\nWhy it’s relevant (from the provided TED data):\n- Torres speaks directly about 21st‑century leadership and practical traits leaders need today. She summarizes her experience: \"I've spent 25 years of my professional life observing what makes great leaders... I've advised over 200 CEOs,\" establishing the talk’s grounded basis in real leadership practice.\n- The talk addresses the mindset and behavior a modern leader must adopt — for example: \"Great leaders dare to be different. They don't just talk about risk-taking, they actually do it,\" and she emphasizes the need to prepare for \"the realities of today and all of those unknown possibilities of tomorrow.\"\n- She also argues that \"more than traditional leadership programs, answering these three questions will determine your effectiveness as a 21st‑century leader,\" signaling concrete, actionable guidance rather than theory alone.\n\nIf you want a complementary perspective (also in the provided data), Simon Sinek’s \"How great leaders inspire action\" is another strong pick — it explains why some leaders inspire by starting with \"why\" and contrasts leaders who hold authority with those who actually inspire others: \"we follow those who lead, not because we have to, but because we want to.\"",
+    "context_chunks": [
+      {
+        "talk_id": "2485",
+        "title": "TED's secret to great public speaking",
+        "speaker": "Chris Anderson",
+        "chunk": "Title: TED's secret to great public speaking. Some people think that there's a TED Talk formula: \"Give a talk on a round, red rug.\" \"Share a childhood story.\" \"Divulge a personal secret.\" \"End with an...",
+        "score": 0.558998108
+      },
+      {
+        "talk_id": "1930",
+        "title": "What it takes to be a great leader",
+        "speaker": "Roselinde Torres",
+        "chunk": ". Great leaders dare to be different. They don't just talk about risk-taking, they actually do it. And one of the leaders shared with me the fact that the most impactful development comes when you are...",
+        "score": 0.546976089
+      },
+      {
+        "talk_id": "70",
+        "title": "8 secrets of success",
+        "speaker": "Richard St. John",
+        "chunk": "Title: 8 secrets of success. This is really a two-hour presentation I give to high school students, cut down to three minutes. And it all started one day on a plane, on my way to TED, seven years ago....",
+        "score": 0.541788161
+      },
+      {
+        "talk_id": "70",
+        "title": "8 secrets of success",
+        "speaker": "Richard St. John",
+        "chunk": "Title: 8 secrets of success. This is really a two-hour presentation I give to high school students, cut down to three minutes. And it all started one day on a plane, on my way to TED, seven years ago....",
+        "score": 0.541664183
+      },
+      {
+        "talk_id": "2665",
+        "title": "If a story moves you, act on it",
+        "speaker": "Sisonke Msimang",
+        "chunk": "Title: If a story moves you, act on it. So earlier this year, I was informed that I would be doing a TED Talk. So I was excited, then I panicked, then I was excited, then I panicked, and in between th...",
+        "score": 0.540407181
+      },
+      {
+        "talk_id": "1355",
+        "title": "Everyday leadership",
+        "speaker": "Drew Dudley",
+        "chunk": "Title: Everyday leadership. I wanted to just start by asking everyone a question: How many of you are completely comfortable with calling yourselves a leader? I've asked that question all across the c...",
+        "score": 0.532564163
+      },
+      {
+        "talk_id": "1044",
+        "title": "How to succeed? Get more sleep",
+        "speaker": "Arianna Huffington",
+        "chunk": ". So a high IQ does not mean that you're a good leader, because the essence of leadership is being able to see the iceberg before it hits the Titanic. (Laughter) And we've had far too many icebergs hi...",
+        "score": 0.531944275
+      },
+      {
+        "talk_id": "814",
+        "title": "How to start a movement",
+        "speaker": "Derek Sivers",
+        "chunk": "Title: How to start a movement. Ladies and gentlemen, at TED we talk a lot about leadership and how to make a movement. So let's watch a movement happen, start to finish, in under three minutes and di...",
+        "score": 0.529005051
+      },
+      {
+        "talk_id": "1355",
+        "title": "Everyday leadership",
+        "speaker": "Drew Dudley",
+        "chunk": ". And if we can understand leadership like that, I think if we can redefine leadership like that, I think we can change everything. And it's a simple idea, but I don't think it's a small one. I want t...",
+        "score": 0.527925491
+      },
+      {
+        "talk_id": "848",
+        "title": "How great leaders inspire action",
+        "speaker": "Simon Sinek",
+        "chunk": ". By the way, he gave the \"I have a dream\" speech, not the \"I have a plan\" speech. (Laughter) Listen to politicians now, with their comprehensive 12-point plans. They're not inspiring anybody. Because...",
+        "score": 0.516830444
+      },
+      {
+        "talk_id": "848",
+        "title": "How great leaders inspire action",
+        "speaker": "Simon Sinek",
+        "chunk": ". There's something else at play here. About three and a half years ago, I made a discovery. And this discovery profoundly changed my view on how I thought the world worked, and it even profoundly cha...",
+        "score": 0.513277054
+      },
+      {
+        "talk_id": "1962",
+        "title": "It's TED, the Musical",
+        "speaker": "The TED Staff",
+        "chunk": ". Understand me still. ♪ ♪ I'm too nervous to give this TED Talk. ♪ All: ♪ Don't give up. Rehearse. You're good. ♪ ♪ We'll edit out the mistakes that you make. ♪ ♪ Give your talk. ♪ DH: ♪ I will be bi...",
+        "score": 0.510734558
+      },
+      {
+        "talk_id": "62628",
+        "title": "How to shift your mindset and choose your future",
+        "speaker": "Tom Rivett-Carnac",
+        "chunk": "Title: How to shift your mindset and choose your future. I never thought that I would be giving my TED Talk somewhere like this. But, like half of humanity, I've spent the last four weeks under lockdo...",
+        "score": 0.510582
+      },
+      {
+        "talk_id": "1930",
+        "title": "What it takes to be a great leader",
+        "speaker": "Roselinde Torres",
+        "chunk": ". Now, I've spent 25 years of my professional life observing what makes great leaders. I've worked inside Fortune 500 companies, I've advised over 200 CEOs, and I've cultivated more leadership pipelin...",
+        "score": 0.508586884
+      },
+      {
+        "talk_id": "846",
+        "title": "Lies, damned lies and statistics (about TEDTalks)",
+        "speaker": "Sebastian Wernicke",
+        "chunk": ". Now, with the topic: There's a whole range of topics you can choose, but you should choose wisely, because your topic strongly correlates with how users will react to your talk. Now, to make this mo...",
+        "score": 0.507391
+      }
+    ],
+    "scores": {
+      "faithfulness": 3,
+      "relevance": 3,
+      "completeness": 3,
+      "context_quality": 3,
+      "overall_score": 3,
+      "reasoning": "Failed to parse judge response"
+    },
+    "avg_similarity": 0.5279116428
+  }
+]
